@@ -1,0 +1,101 @@
+{
+  "name": "@jooble/easy-widget",
+  "version": "0.0.4",
+  "description": "easy-widget",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jooble-gtm-official/easy-widget"
+  },
+  "publishConfig": {
+    "@jooble:registry": "https://gitlab.jooble.com/api/v4/projects/1208/packages/npm/"
+  },
+  "author": "ahu@jooble.com",
+  "license": "ISC",
+  "private": false,
+  "scripts": {
+    "build:production": "node scripts/build.js",
+    "lint": "eslint --debug src/",
+    "publish": "npm publish",
+    "lint:write": "eslint --debug src/ --fix",
+    "test": "jest --config ./jest.config.js"
+  },
+  "browserslist": [
+    "defaults",
+    "not dead",
+    "> .25%"
+  ],
+  "browser": {
+    "fs": false
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/plugin-proposal-optional-chaining": "^7.7.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-regenerator": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.1.0",
+    "@babel/register": "^7.4.4",
+    "@hot-loader/react-dom": "^16.12.0",
+    "@types/jest": "^28.1.2",
+    "@types/lodash": "^4.14.182",
+    "@types/sinon": "^10.0.11",
+    "autoprefixer": "^9.3.1",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.1.0",
+    "case-sensitive-paths-webpack-plugin": "^2.3.0",
+    "classnames": "^2.2.6",
+    "copy-webpack-plugin": "^6.4.1",
+    "css-loader": "^5.2.1",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "extract-css-chunks-webpack-plugin": "^4.7.5",
+    "file-loader": "^2.0.0",
+    "jest": "^28.1.1",
+    "jest-ts-auto-mock": "2.0.0",
+    "junk": "^3.1.0",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^1.4.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^2.2.1",
+    "react": "16.10.2",
+    "react-dev-utils": "^11.0.3",
+    "react-dom": "16.10.2",
+    "react-hot-loader": "^4.6.5",
+    "react-is": "^17.0.1",
+    "resolve-url-loader": "^3.1.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.1.1",
+    "shelljs": "^0.8.4",
+    "sinon": "^12.0.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^1.2.3",
+    "ts-auto-mock": "3.5.0",
+    "ts-jest": "^28.0.5",
+    "ttypescript": "^1.5.13",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "3.0.0"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-dom": "16.x"
+  }
+}
