@@ -15,7 +15,7 @@ const JayJayBanner = (props) => {
         <img
           alt={props.image_alt}
           src={props.image_src}
-          className="image_1024 jay-jay-banner-image1240"
+          className="jay-jay-banner-image1240 image_1024"
         />
         <img
           alt={props.image_alt1}
