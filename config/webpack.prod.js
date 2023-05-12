@@ -10,7 +10,7 @@ module.exports = {
   name: 'client',
   target: 'node',
   mode: 'production',
-  entry: paths.components,
+  entry: [paths.rootCss, paths.components],
   output: {
     filename: 'index.js',
     path: paths.appDist,
