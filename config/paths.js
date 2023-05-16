@@ -8,5 +8,6 @@ module.exports = {
   components: resolveApp('src/teleporthq/components/index.js'),
   componentsDir: resolveApp('src/teleporthq/components'),
   rootCss: resolveApp('src/teleporthq/style.css'),
+  publicAssetsDir: resolveApp('public/playground_assets'),
   appDist: resolveApp('dist'),
 };

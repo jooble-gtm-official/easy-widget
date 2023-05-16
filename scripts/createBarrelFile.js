@@ -3,6 +3,12 @@ const path = require("path");
 
 const sep = path.sep;
 
+const rewriteInternalToExternalAssetsFolderPath = (pathToComponent, externalAssetsFolderPath) => {
+    const file = fs.readFileSync(pathToComponent);
+    const newFile = file.toString().replace(/\/playground_assets\//g, externalAssetsFolderPath);
+    fs.writeFileSync(pathToComponent, newFile);
+}
+
 module.exports = (rootDir) => {
     fs.rmSync(rootDir + sep + 'index.js', { recursive: true, force: true });
 
@@ -15,6 +21,8 @@ module.exports = (rootDir) => {
         const _fileName = fileName.replace('.js', '');
 
         const componentName = _fileName.split('-').map(a => a.charAt(0).toUpperCase() + a.substr(1)).join('');
+
+        rewriteInternalToExternalAssetsFolderPath(rootDir + sep + fileName, '/assets/easy-widget/')
 
         return acc.concat(`export { default as ${componentName} } from './${_fileName}';`).concat('\n');
     }, '')

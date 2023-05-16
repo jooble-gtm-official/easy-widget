@@ -1,6 +1,7 @@
 const paths = require('./paths');
 const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const nodeExternals = require('webpack-node-externals');
 
@@ -128,6 +129,14 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'index.css',
     }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: paths.publicAssetsDir,
+          to: `${paths.appDist}/assets`
+        }
+      ]
+    })
   ],
   performance: { hints: false },
 };
