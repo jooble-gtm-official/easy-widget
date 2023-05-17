@@ -1,6 +1,6 @@
 {
   "name": "@jooble/easy-widget",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "easy-widget",
   "main": "./dist/index.js",
   "repository": {
@@ -14,9 +14,9 @@
   "license": "ISC",
   "private": false,
   "scripts": {
-    "build:production": "node scripts/build.js",
+    "build:production": "node scripts/build.js && node scripts/afterBuild.js",
     "lint": "eslint --debug src/",
-    "publish": "npm publish",
+    "publish": "cd dist && npm publish",
     "lint:write": "eslint --debug src/ --fix",
     "test": "jest --config ./jest.config.js"
   },
@@ -62,6 +62,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "extract-css-chunks-webpack-plugin": "^4.7.5",
     "file-loader": "^2.0.0",
+    "json-beautify": "^1.1.1",
     "mini-css-extract-plugin": "^1.4.1",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",

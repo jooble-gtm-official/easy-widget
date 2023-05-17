@@ -1,4 +1,5 @@
 const paths = require('./paths');
+const getWebpackEntryConfig = require('./getWebpackEntryConfig');
 const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require("copy-webpack-plugin");
@@ -11,9 +12,9 @@ module.exports = {
   name: 'client',
   target: 'node',
   mode: 'production',
-  entry: [paths.rootCss, paths.components],
+  entry: getWebpackEntryConfig(paths.componentsDir),
   output: {
-    filename: 'index.js',
+    filename: '[name]',
     path: paths.appDist,
     libraryTarget: 'commonjs2',
     publicPath: RESOURCE_URL_PATH_PREFIX,
