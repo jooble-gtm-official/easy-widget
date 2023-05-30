@@ -1,6 +1,6 @@
 {
   "name": "@jooble/easy-widget",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "easy-widget",
   "main": "./dist/index.js",
   "repository": {
