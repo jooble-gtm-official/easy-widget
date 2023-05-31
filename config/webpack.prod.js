@@ -12,9 +12,9 @@ module.exports = {
   name: 'client',
   target: 'node',
   mode: 'production',
-  entry: getWebpackEntryConfig(paths.componentsDir),
+  entry: [paths.rootCss, paths.components],
   output: {
-    filename: '[name]',
+    filename: 'component.js',
     path: paths.appDist,
     libraryTarget: 'commonjs2',
     publicPath: RESOURCE_URL_PATH_PREFIX,

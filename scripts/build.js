@@ -6,6 +6,7 @@ const paths = require('../config/paths');
 const fs = require("fs");
 const config = require('../config/webpack.prod.js');
 const createBarrelFile = require('./createBarrelFile');
+const mergeCssWithJs = require('./mergeCssWithJs');
 
 (function build(previousFileSizes) {
 
@@ -58,5 +59,5 @@ const createBarrelFile = require('./createBarrelFile');
         return resolve({ stats, previousFileSizes, warnings: messages.warnings });
       });
     });
-  });
+  }).then(() => mergeCssWithJs(paths.appDist));
 })();
