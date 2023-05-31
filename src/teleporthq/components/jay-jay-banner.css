@@ -56,7 +56,9 @@
 }
 @media(max-width: 480px) {
   .jay-jay-banner-container {
-    justify-content: flex-start;
+    width: 380px;
+    margin-right: 0px;
+    justify-content: center;
   }
   .jay-jay-banner-image320 {
     display: flex;
