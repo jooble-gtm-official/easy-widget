@@ -56,8 +56,7 @@
 }
 @media(max-width: 480px) {
   .jay-jay-banner-container {
-    width: 380px;
-    margin-right: 0px;
+    width: 100%;
     justify-content: center;
   }
   .jay-jay-banner-image320 {
