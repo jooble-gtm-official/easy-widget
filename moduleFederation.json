@@ -1,0 +1,8 @@
+{
+  "name": "easyWidget",
+  "filename": "easyWidget.js",
+  "exposes": {
+    "./JayJayBanner": "./src/teleporthq/components/jay-jay-banner",
+    "./NewBanner": "./src/teleporthq/components/new-banner"
+  }
+}
