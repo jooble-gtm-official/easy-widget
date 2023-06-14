@@ -1,6 +1,6 @@
 {
   "name": "@jooble/easy-widget",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "easy-widget",
   "main": "./dist/index.js",
   "repository": {
@@ -78,7 +78,7 @@
     "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0",
     "terser-webpack-plugin": "^1.2.3",
-    "typescript": "^5.0.4",
+    "typescript": "^5.1.3",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
     "webpack-node-externals": "3.0.0"
