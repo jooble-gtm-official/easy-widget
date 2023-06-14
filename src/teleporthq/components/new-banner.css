@@ -13,18 +13,24 @@
   align-self: center;
   text-align: center;
 }
-.new-banner-text1 {
+.new-banner-link {
+  cursor: pointer;
+  margin-top: 16px;
   padding-top: var(--dl-space-space-halfunit);
   border-color: #060606;
   border-style: solid;
   border-width: 1px;
   padding-left: var(--dl-space-space-halfunit);
   border-radius: 16px;
+  margin-bottom: 16px;
   padding-right: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
   background-color: rgb(255, 9, 9);
 }
-.new-banner-text2 {
+.new-banner-text1 {
+  cursor: pointer;
+  margin-top: 0px;
   padding-top: var(--dl-space-space-halfunit);
   border-color: #060606;
   border-style: solid;
