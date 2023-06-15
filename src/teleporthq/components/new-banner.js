@@ -9,33 +9,32 @@ const NewBanner = (props) => {
     <div className={`new-banner-container ${props.rootClassName} `}>
       <span className="new-banner-text">New cool banner</span>
       <a
-        href="https://www.google.com/"
+        href={props.link}
         target="_blank"
         rel="noreferrer noopener"
-        onClick={props.onClick1}
+        onClick={props.onClick}
         className="new-banner-link"
       >
-        Send Statistics
+        Link
       </a>
-      <span onClick={props.onClick2} className="new-banner-text1">
-        Send Statistics And Open Link
-      </span>
     </div>
   )
 }
 
 NewBanner.defaultProps = {
-  onClick1: () => {},
+  xxxxx: '',
   text: 'Ne',
   rootClassName: '',
-  onClick2: () => {},
+  link: '',
+  onClick: () => {},
 }
 
 NewBanner.propTypes = {
-  onClick1: PropTypes.func,
+  xxxxx: PropTypes.string,
   text: PropTypes.string,
   rootClassName: PropTypes.string,
-  onClick2: PropTypes.func,
+  link: PropTypes.string,
+  onClick: PropTypes.func,
 }
 
 export default NewBanner
