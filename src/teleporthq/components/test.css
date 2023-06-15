@@ -56,7 +56,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.test-button {
+.test-link {
   gap: 10px;
   width: 267px;
   display: flex;
@@ -67,9 +67,8 @@
   border-width: 1px;
   border-radius: 4px;
   justify-content: center;
-  text-decoration: none;
 }
-.test-buttons {
+.test-link1 {
   gap: 4px;
   display: flex;
   padding: 8px 8px 8px 12px;
@@ -93,12 +92,15 @@
   width: 24px;
   height: 24px;
 }
-@media(max-width: 768px) {
+@media(max-width: 992px) {
   .test-container {
     width: 300px;
     height: 360px;
   }
-  .test-frame1427 {
-    width: 100%;
+}
+@media(max-width: 768px) {
+  .test-container {
+    width: 300px;
+    height: 360px;
   }
 }

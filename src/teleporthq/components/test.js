@@ -9,11 +9,7 @@ const Test = (props) => {
     <div className="test-container">
       <div className="test-frame1427">
         <div className="test-container1">
-          <img
-            src="/img31013-9k4xj.png"
-            alt="img31013"
-            className="test-img31"
-          />
+          <img src="/img31013-0lpl.png" alt="img31013" className="test-img31" />
           <span className="test-text">
             <span>Can&apos;t choose the right career path for you?</span>
           </span>
@@ -24,37 +20,31 @@ const Test = (props) => {
             </span>
           </span>
         </div>
-        <a
-          href={props.link}
-          target="_blank"
-          rel="noreferrer noopener"
-          onClick={props.onClick}
-          className="test-button"
-        >
-          <button className="test-buttons">
+        <div className="test-link">
+          <div className="test-link1">
             <span className="test-text4">
               <span>Start free test</span>
             </span>
             <img
-              src="/arrowrightup34-r41r.svg"
+              src="/arrowrightup34-13iv.svg"
               alt="arrowrightup34"
               className="test-arrowrightup"
             />
-          </button>
-        </a>
+          </div>
+        </div>
       </div>
     </div>
   )
 }
 
 Test.defaultProps = {
-  link: '',
   onClick: () => {},
+  link: '',
 }
 
 Test.propTypes = {
-  link: PropTypes.string,
   onClick: PropTypes.func,
+  link: PropTypes.string,
 }
 
 export default Test
