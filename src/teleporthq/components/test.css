@@ -1,8 +1,10 @@
 .test-container {
-  width: 291px;
+  width: 300px;
   height: 362px;
   display: flex;
   position: relative;
+  max-width: 300px;
+  min-width: 300px;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -101,6 +103,8 @@
   .test-container {
     width: 300px;
     height: 360px;
+    max-height: 360px;
+    min-height: 360px;
   }
 }
 @media(max-width: 768px) {
