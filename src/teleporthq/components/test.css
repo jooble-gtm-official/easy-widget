@@ -57,8 +57,12 @@
   text-decoration: none;
 }
 .test-link {
+  display: contents;
+}
+.test-link1 {
   gap: 10px;
   width: 267px;
+  cursor: pointer;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
@@ -67,8 +71,9 @@
   border-width: 1px;
   border-radius: 4px;
   justify-content: center;
+  text-decoration: none;
 }
-.test-link1 {
+.test-link2 {
   gap: 4px;
   display: flex;
   padding: 8px 8px 8px 12px;
