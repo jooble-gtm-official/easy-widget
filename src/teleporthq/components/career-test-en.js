@@ -8,14 +8,14 @@ const CareerTestEn = (props) => {
   return (
     <div className="career-test-en-container">
       <div className="career-test-en-frame1427">
+        <div className="career-test-en-img">
+          <img
+            alt="career_test"
+            src="/assets/easy-widget/career_test.png"
+            className="career-test-en-careertest"
+          />
+        </div>
         <div className="career-test-en-frame1425">
-          <div className="career-test-en-img">
-            <img
-              alt="career_test"
-              src="/assets/easy-widget/career_test-200h.png"
-              className="career-test-en-img51"
-            />
-          </div>
           <div className="career-test-en-frame1421">
             <div className="career-test-en-frame1418">
               <span className="career-test-en-text">

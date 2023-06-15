@@ -12,7 +12,7 @@ const CareerTestDe = (props) => {
           <div className="career-test-de-img">
             <img
               alt="career_test"
-              src="/assets/easy-widget/career_test-200h.png"
+              src="/assets/easy-widget/career_test.png"
               className="career-test-de-careertest"
             />
           </div>

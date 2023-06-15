@@ -1,32 +1,23 @@
 .career-test-en-container {
-  width: 303px;
-  height: 366px;
   display: flex;
   position: relative;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
+
 .career-test-en-frame1427 {
   gap: 16px;
-  width: 298px;
-  height: 361px;
+  height: auto;
   display: flex;
   padding: 16px;
-  box-shadow: 0px 0px 2px 0px rgba(5, 20, 41, 0.05999999865889549) ;
+  box-shadow: 0px 0px 2px 0px rgba(5, 20, 41, 0.05999999865889549);
   align-items: flex-start;
   border-radius: 8px;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 1);
 }
-.career-test-en-frame1425 {
-  gap: 4px;
-  width: 268px;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
+
 .career-test-en-img {
   width: 268px;
   height: 135px;
@@ -36,13 +27,24 @@
   flex-shrink: 0;
   border-radius: 6px;
 }
-.career-test-en-img51 {
+
+.career-test-en-careertest {
   top: 0px;
   left: 0px;
   width: 268px;
   height: 132px;
   position: absolute;
 }
+
+.career-test-en-frame1425 {
+  gap: 4px;
+  width: 268px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
 .career-test-en-frame1421 {
   gap: 2px;
   display: flex;
@@ -50,6 +52,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
 .career-test-en-frame1418 {
   gap: 6px;
   display: flex;
@@ -57,6 +60,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
 .career-test-en-text {
   color: rgba(11, 13, 14, 1);
   height: auto;
@@ -70,6 +74,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .career-test-en-text2 {
   color: rgba(57, 63, 71, 1);
   height: auto;
@@ -77,6 +82,7 @@
   text-align: left;
   line-height: 24px;
 }
+
 .career-test-en-frame1426 {
   gap: 10px;
   width: 267px;
@@ -89,14 +95,19 @@
   border-radius: 4px;
   justify-content: center;
 }
+
 .career-test-en-buttons {
   gap: 4px;
+  width: 100%;
+  border: none;
   display: flex;
   padding: 8px 8px 8px 12px;
+  background: none;
   align-items: center;
   border-radius: 4px;
   justify-content: center;
 }
+
 .career-test-en-text4 {
   color: rgba(11, 113, 217, 1);
   height: auto;
@@ -109,10 +120,12 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .career-test-en-arrowrightup {
   width: 24px;
   height: 24px;
 }
+
 @media(max-width: 479px) {
   .career-test-en-container {
     height: 366px;
