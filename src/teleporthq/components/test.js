@@ -9,7 +9,7 @@ const Test = (props) => {
     <div className="test-container">
       <div className="test-frame1427">
         <div className="test-container1">
-          <img src="/img31013-0lpl.png" alt="img31013" className="test-img31" />
+          <img alt="img31013" src="/img31013-0lpl.png" className="test-img31" />
           <span className="test-text">
             <span>Can&apos;t choose the right career path for you?</span>
           </span>
@@ -32,8 +32,8 @@ const Test = (props) => {
                 <span>Start free test</span>
               </span>
               <img
-                src="/arrowrightup34-13iv.svg"
                 alt="arrowrightup34"
+                src="/arrowrightup34-13iv.svg"
                 className="test-arrowrightup"
               />
             </div>

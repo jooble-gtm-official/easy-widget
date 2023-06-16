@@ -10,10 +10,12 @@
 }
 .test-frame1427 {
   gap: 16px;
+  top: 20px;
   width: 100%;
   height: auto;
   display: flex;
   padding: 16px;
+  position: sticky;
   box-shadow: 0px 0px 2px 0px rgba(5, 20, 41, 0.05999999865889549) ;
   align-items: flex-start;
   border-radius: 8px;
