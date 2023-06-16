@@ -1,21 +1,22 @@
 .test-container {
+  top: 20px;
   width: 300px;
   height: 362px;
   display: flex;
-  position: relative;
+  position: sticky;
   max-width: 300px;
   min-width: 300px;
+  max-height: 360px;
+  min-height: 360px;
   align-items: flex-start;
   flex-direction: column;
 }
 .test-frame1427 {
   gap: 16px;
-  top: 20px;
   width: 100%;
   height: auto;
   display: flex;
   padding: 16px;
-  position: sticky;
   box-shadow: 0px 0px 2px 0px rgba(5, 20, 41, 0.05999999865889549) ;
   align-items: flex-start;
   border-radius: 8px;
@@ -100,18 +101,4 @@
 .test-arrowrightup {
   width: 24px;
   height: 24px;
-}
-@media(max-width: 992px) {
-  .test-container {
-    width: 300px;
-    height: 360px;
-    max-height: 360px;
-    min-height: 360px;
-  }
-}
-@media(max-width: 768px) {
-  .test-container {
-    width: 300px;
-    height: 360px;
-  }
 }
