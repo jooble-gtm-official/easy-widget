@@ -34,8 +34,8 @@ const CareerTestEN = (props) => {
               <span>Start free test</span>
             </span>
             <img
-              alt="arrowrightup1546"
-              src="/arrowrightup1546-5a1wf.svg"
+              alt="/arrow-career-test"
+              src="/arrow-career-test.svg"
               className="career-test-en-arrowrightup"
             />
           </button>
