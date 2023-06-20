@@ -4,16 +4,16 @@ import PropTypes from 'prop-types'
 
 import './career-test-de.css'
 
-const CareerTestDe = (props) => {
+const CareerTestDE = (props) => {
   return (
     <div className="career-test-de-container">
       <div className="career-test-de-frame1427">
         <div className="career-test-de-frame1425">
           <div className="career-test-de-img">
             <img
-              alt="career_test"
-              src="/assets/easy-widget/career_test.png"
-              className="career-test-de-careertest"
+              alt={props.image_alt}
+              src={props.image_src}
+              className="career-test-de-image"
             />
           </div>
           <div className="career-test-de-frame1421">
@@ -28,12 +28,12 @@ const CareerTestDe = (props) => {
             </div>
           </div>
         </div>
-        <div onClick={props.onClick} className="career-test-de-frame1426">
-          <button className="career-test-de-buttons">
+        <div className="career-test-de-frame1426">
+          <button onClick={props.onClick} className="career-test-de-buttons">
             <span className="career-test-de-text2">Test starten</span>
             <img
-              alt="career_test_arrow"
-              src="/assets/easy-widget/career_test_arrow.svg"
+              alt="arrowrightup1546"
+              src="/arrowrightup1546-5a1wf.svg"
               className="career-test-de-arrowrightup"
             />
           </button>
@@ -43,12 +43,18 @@ const CareerTestDe = (props) => {
   )
 }
 
-CareerTestDe.defaultProps = {
-  onClick: () => { },
+CareerTestDE.defaultProps = {
+  image_alt: 'image',
+  onClick: () => {},
+  rootClassName: '',
+  image_src: '/career-test.png',
 }
 
-CareerTestDe.propTypes = {
+CareerTestDE.propTypes = {
+  image_alt: PropTypes.string,
   onClick: PropTypes.func,
+  rootClassName: PropTypes.string,
+  image_src: PropTypes.string,
 }
 
-export default CareerTestDe
+export default CareerTestDE
