@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 import './career-test-en.css'
 
-const CareerTestEN = (props) => {
+const CareerTestEn = (props) => {
   return (
     <div className={`career-test-en-container ${props.rootClassName} `}>
       <div className="career-test-en-frame1427">
@@ -34,7 +34,7 @@ const CareerTestEN = (props) => {
               <span>Start free test</span>
             </span>
             <img
-              alt="/arrow-career-test"
+              alt="arrow-career-test"
               src="/arrow-career-test.svg"
               className="career-test-en-arrowrightup"
             />
@@ -45,18 +45,18 @@ const CareerTestEN = (props) => {
   )
 }
 
-CareerTestEN.defaultProps = {
+CareerTestEn.defaultProps = {
   onClick: () => {},
   rootClassName: '',
   image_alt: 'image',
   image_src: '/career-test.png',
 }
 
-CareerTestEN.propTypes = {
+CareerTestEn.propTypes = {
   onClick: PropTypes.func,
   rootClassName: PropTypes.string,
   image_alt: PropTypes.string,
   image_src: PropTypes.string,
 }
 
-export default CareerTestEN
+export default CareerTestEn
