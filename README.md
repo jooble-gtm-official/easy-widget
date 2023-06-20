@@ -1,2 +1,2 @@
 # easy-widget
-1
+2
