@@ -35,7 +35,7 @@ const CareerTestEn = (props) => {
             </span>
             <img
               alt="arrow-career-test"
-              src="/arrow-career-test.svg"
+              src="/assets/easy-widget/arrow-career-test.svg"
               className="career-test-en-arrowrightup"
             />
           </button>
@@ -49,7 +49,7 @@ CareerTestEn.defaultProps = {
   onClick: () => {},
   rootClassName: '',
   image_alt: 'image',
-  image_src: '/career-test.png',
+  image_src: '/assets/easy-widget/career-test.png',
 }
 
 CareerTestEn.propTypes = {

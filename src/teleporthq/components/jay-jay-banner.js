@@ -33,12 +33,12 @@ const JayJayBanner = (props) => {
 }
 
 JayJayBanner.defaultProps = {
-  image_src2: '/jay_jay_banner_768.png',
+  image_src2: '/assets/easy-widget/jay_jay_banner_768.png',
   image_alt: 'image',
   image_alt2: 'image',
   image_alt1: 'image',
-  image_src: '/jay_jay_banner_1024.png',
-  image_src1: '/jay_jay_banner_320.png',
+  image_src: '/assets/easy-widget/jay_jay_banner_1024.png',
+  image_src1: '/assets/easy-widget/jay_jay_banner_320.png',
 }
 
 JayJayBanner.propTypes = {
