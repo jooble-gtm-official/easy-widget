@@ -95,10 +95,12 @@
   gap: 4px;
   color: var(--dl-color-gray-black);
   width: 100%;
+  border: none;
   cursor: pointer;
   display: flex;
   padding: 8px 8px 8px 12px;
   position: relative;
+  background: none;
   align-items: center;
   border-radius: 4px;
   justify-content: center;
