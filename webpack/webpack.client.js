@@ -1,6 +1,8 @@
 const path = require('path');
 const moduleFederationPlugin = require('./module-federation');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+const paths = require('../config/paths');
 
 module.exports = {
   name: 'client',
@@ -71,6 +73,14 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[name].css',
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: paths.publicAssetsDir,
+          to: paths.appDistClient
+        }
+      ]
     }),
   ],
 };

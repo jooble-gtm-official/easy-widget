@@ -6,5 +6,7 @@ const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath);
 
 module.exports = {
   componentsDir: resolveApp('src/teleporthq/components'),
-  rootDir: resolveApp('./')
+  rootDir: resolveApp('./'),
+  publicAssetsDir: resolveApp('public/playground_assets'),
+  appDistClient: resolveApp('dist/client'),
 };

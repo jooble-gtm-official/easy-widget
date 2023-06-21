@@ -35,6 +35,7 @@
     "react-helmet": "^6.1.0",
     "style-loader": "3.3.2",
     "@module-federation/node": "0.14.0",
-    "json-beautify": "1.1.1"
+    "json-beautify": "1.1.1",
+    "copy-webpack-plugin": "^6.4.1"
   }
 }
