@@ -1,8 +1,9 @@
 .career-test-en-container {
+  top: 12px;
   width: 300px;
   height: auto;
   display: flex;
-  position: relative;
+  position: sticky;
   align-items: flex-start;
   flex-direction: column;
 }
