@@ -5,6 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const nodeExternals = require('webpack-node-externals');
+const CISP = require("../babelPlugins/changeImgSrcPrefics/src");
 
 const RESOURCE_URL_PATH_PREFIX = '/';
 
@@ -65,6 +66,7 @@ module.exports = {
               },
             ],
           ],
+          plugins: [CISP],
         },
       },
       /* STYLES */
