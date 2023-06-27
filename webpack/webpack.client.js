@@ -3,6 +3,7 @@ const moduleFederationPlugin = require('./module-federation');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const paths = require('../config/paths');
+const CISP = require("../babelPlugins/changeImgSrcPrefics/src");
 
 module.exports = {
   name: 'client',
@@ -28,6 +29,7 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           presets: ['@babel/preset-react'],
+          plugins: [CISP],
         },
       },
       {

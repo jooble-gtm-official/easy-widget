@@ -4,6 +4,7 @@
   "exposes": {
     "./CareerTestDe": "./src/teleporthq/components/career-test-de",
     "./CareerTestEn": "./src/teleporthq/components/career-test-en",
+    "./Index": "./src/teleporthq/components/index",
     "./JayJayBanner": "./src/teleporthq/components/jay-jay-banner"
   }
 }
