@@ -6,29 +6,35 @@ import './super-banner.css'
 
 const SuperBanner = (props) => {
   return (
-    <div className="super-banner-container">
-      <span className="super-banner-title">{props.superBannerTitle}</span>
-      <span className="super-banner-subtitle">{props.superBannerSubtitle}</span>
-      <span className="super-banner-description">
-        {props.superBannerDescription}
-      </span>
-      <span className="super-banner-region">{props.superBannerRegion}</span>
-    </div>
+    <a href={props.superBannerLink} target="_blank" rel="noreferrer noopener">
+      <div className="super-banner-container">
+        <span className="super-banner-title">{props.superBannerTitle}</span>
+        <span className="super-banner-subtitle">
+          {props.superBannerSubtitle}
+        </span>
+        <span className="super-banner-description">
+          {props.superBannerDescription}
+        </span>
+        <span className="super-banner-region">{props.superBannerRegion}</span>
+      </div>
+    </a>
   )
 }
 
 SuperBanner.defaultProps = {
-  superBannerSubtitle: 'Subtitle',
   superBannerTitle: 'Title',
   superBannerDescription: 'Description',
   superBannerRegion: 'region',
+  superBannerSubtitle: 'Subtitle',
+  superBannerLink: '',
 }
 
 SuperBanner.propTypes = {
-  superBannerSubtitle: PropTypes.string,
   superBannerTitle: PropTypes.string,
   superBannerDescription: PropTypes.string,
   superBannerRegion: PropTypes.string,
+  superBannerSubtitle: PropTypes.string,
+  superBannerLink: PropTypes.string,
 }
 
 export default SuperBanner

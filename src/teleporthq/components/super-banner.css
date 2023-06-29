@@ -8,6 +8,7 @@
   position: relative;
   align-items: center;
   flex-direction: column;
+  text-decoration: none;
   background-color: rgb(244, 211, 211);
 }
 .super-banner-title {
