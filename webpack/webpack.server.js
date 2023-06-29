@@ -1,5 +1,6 @@
 const path = require('path');
 const moduleFederationPlugin = require('./module-federation');
+const CISP = require("../babelPlugins/changeImgSrcPrefics/src");
 
 module.exports = {
   name: 'server',
@@ -29,6 +30,7 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           presets: ['@babel/preset-react'],
+          plugins: [CISP],
         },
       },
       {

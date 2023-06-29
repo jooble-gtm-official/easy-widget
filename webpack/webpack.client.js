@@ -19,7 +19,7 @@ module.exports = {
     path: path.resolve(__dirname, '../dist/client'),
     filename: '[name].js',
     chunkFilename: '[name].js',
-    publicPath: 'http://localhost:3333/static/',
+    publicPath: '/easy-widget/client/',
   },
   module: {
     rules: [
@@ -55,7 +55,7 @@ module.exports = {
                 loader: 'css-loader',
                 options: {
                   modules: false
-              },
+                },
               },
               {
                 loader: 'postcss-loader',
