@@ -25,18 +25,18 @@ SuperBanner.defaultProps = {
   superBannerTitle: 'Title',
   superBannerDescription: 'Description',
   superBannerRegion: 'region',
+  link: '',
   superBannerSubtitle: 'Subtitle',
   onClick: '',
-  link: '',
 }
 
 SuperBanner.propTypes = {
   superBannerTitle: PropTypes.string,
   superBannerDescription: PropTypes.string,
   superBannerRegion: PropTypes.string,
+  link: PropTypes.string,
   superBannerSubtitle: PropTypes.string,
   onClick: PropTypes.string,
-  link: PropTypes.string,
 }
 
 export default SuperBanner
