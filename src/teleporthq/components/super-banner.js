@@ -6,7 +6,7 @@ import './super-banner.css'
 
 const SuperBanner = (props) => {
   return (
-    <a href={props.onClick} target="_blank" rel="noreferrer noopener">
+    <a href={props.link} target="_blank" rel="noreferrer noopener">
       <div onClick={() => {}} className="super-banner-container">
         <span className="super-banner-title">{props.superBannerTitle}</span>
         <span className="super-banner-subtitle">
@@ -27,6 +27,7 @@ SuperBanner.defaultProps = {
   superBannerRegion: 'region',
   superBannerSubtitle: 'Subtitle',
   onClick: '',
+  link: '',
 }
 
 SuperBanner.propTypes = {
@@ -35,6 +36,7 @@ SuperBanner.propTypes = {
   superBannerRegion: PropTypes.string,
   superBannerSubtitle: PropTypes.string,
   onClick: PropTypes.string,
+  link: PropTypes.string,
 }
 
 export default SuperBanner
