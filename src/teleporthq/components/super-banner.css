@@ -1,0 +1,33 @@
+.super-banner-container {
+  color: rgb(70, 69, 140);
+  width: 100%;
+  border: 5px solid rgb(232, 169, 169);
+  height: 150px;
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: rgb(244, 211, 211);
+}
+.super-banner-title {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.super-banner-subtitle {
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.super-banner-description {
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+.super-banner-region {
+  margin-top: 10px;
+}

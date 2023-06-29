@@ -30,9 +30,7 @@ const CareerTestEn = (props) => {
         </div>
         <div className="career-test-en-frame1426">
           <button onClick={props.onClick} className="career-test-en-buttons">
-            <span className="career-test-en-text2">
-              <span>Start free test</span>
-            </span>
+            <span className="career-test-en-text2">Start free test</span>
             <img
               alt="arrow-career-test"
               src="/arrow-career-test.svg"
