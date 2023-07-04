@@ -28,14 +28,20 @@ const CareerTest = (props) => {
           </div>
         </div>
         <div className="career-test-frame1426">
-          <button onClick={props.onClick} className="career-test-buttons">
+          <a
+            href={props.link}
+            target="_blank"
+            rel="noreferrer noopener"
+            onClick={props.onClick}
+            className="career-test-buttons"
+          >
             <span className="career-test-text2">{props.careerBannerStart}</span>
             <img
               alt="arrow-career-test"
               src="/arrow-career-test.svg"
               className="career-test-arrowrightup"
             />
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -50,6 +56,7 @@ CareerTest.defaultProps = {
   careerBannerDescription: 'Description',
   careerBannerStart: 'Start',
   careerBannerTitle: 'Title',
+  link: '',
 }
 
 CareerTest.propTypes = {
@@ -60,6 +67,7 @@ CareerTest.propTypes = {
   careerBannerDescription: PropTypes.string,
   careerBannerStart: PropTypes.string,
   careerBannerTitle: PropTypes.string,
+  link: PropTypes.string,
 }
 
 export default CareerTest
