@@ -28,7 +28,7 @@ const CareerTest = (props) => {
           </div>
         </div>
         <div className="career-test-frame1426">
-          <button className="career-test-buttons">
+          <button onClick={props.onClick} className="career-test-buttons">
             <span className="career-test-text2">{props.careerBannerStart}</span>
             <img
               alt="arrow-career-test"
@@ -47,9 +47,9 @@ CareerTest.defaultProps = {
   rootClassName: '',
   onClick: () => {},
   image_src: '/career-test.png',
+  careerBannerDescription: 'Description',
   careerBannerStart: 'Start',
   careerBannerTitle: 'Title',
-  careerBannerDescription: 'Description',
 }
 
 CareerTest.propTypes = {
@@ -57,9 +57,9 @@ CareerTest.propTypes = {
   rootClassName: PropTypes.string,
   onClick: PropTypes.func,
   image_src: PropTypes.string,
+  careerBannerDescription: PropTypes.string,
   careerBannerStart: PropTypes.string,
   careerBannerTitle: PropTypes.string,
-  careerBannerDescription: PropTypes.string,
 }
 
 export default CareerTest
