@@ -28,20 +28,14 @@ const CareerTest = (props) => {
           </div>
         </div>
         <div className="career-test-frame1426">
-          <a
-            href={props.link}
-            target="_blank"
-            rel="noreferrer noopener"
-            onClick={props.onClick}
-            className="career-test-buttons"
-          >
+          <button onClick={props.onClick} className="career-test-buttons">
             <span className="career-test-text2">{props.careerBannerStart}</span>
             <img
               alt="arrow-career-test"
               src="/arrow-career-test.svg"
               className="career-test-arrowrightup"
             />
-          </a>
+          </button>
         </div>
       </div>
     </div>
