@@ -1,5 +1,7 @@
 import React from 'react'
 
+import PropTypes from 'prop-types'
+
 import './test-widget.css'
 
 const TestWidget = (props) => {
@@ -84,21 +86,16 @@ const TestWidget = (props) => {
           </div>
           <div className="test-widget-frame1421">
             <div className="test-widget-frame1418">
-              <span className="test-widget-text MobileH3">
-                <span>Can&apos;t choose the right career path for you?</span>
-              </span>
-              <span className="test-widget-text2 ParagraphP16(default)">
-                <span>
-                  Take a quick free test to discover your ideal career and
-                  receive a personalized Job Report
-                </span>
+              <span className="test-widget-text">{props.header}</span>
+              <span className="test-widget-text01 ParagraphP16(default)">
+                {props.description}
               </span>
             </div>
           </div>
         </div>
         <div className="test-widget-frame1426">
           <button className="test-widget-buttons">
-            <span className="test-widget-text4">
+            <span className="test-widget-text02">
               <span>Start free test</span>
             </span>
             <img
@@ -108,9 +105,27 @@ const TestWidget = (props) => {
             />
           </button>
         </div>
+        <span className="test-widget-text04">
+          <span>Footer</span>
+          <br></br>
+        </span>
+        <span className="test-widget-text07">
+          <span>Footer</span>
+          <br></br>
+        </span>
       </div>
     </div>
   )
+}
+
+TestWidget.defaultProps = {
+  header: 'Default Header',
+  description: 'Default description',
+}
+
+TestWidget.propTypes = {
+  header: PropTypes.string,
+  description: PropTypes.string,
 }
 
 export default TestWidget

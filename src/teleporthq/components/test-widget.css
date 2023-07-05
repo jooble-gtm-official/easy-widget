@@ -222,14 +222,14 @@
   flex-direction: column;
 }
 .test-widget-text {
-  color: rgba(11, 13, 14, 1);
+  color: rgb(11, 13, 14);
   height: auto;
   align-self: stretch;
   text-align: left;
   line-height: 28px;
   padding-left: 10px;
 }
-.test-widget-text2 {
+.test-widget-text01 {
   color: rgba(57, 63, 71, 1);
   height: auto;
   align-self: stretch;
@@ -256,7 +256,7 @@
   border-radius: 4px;
   justify-content: center;
 }
-.test-widget-text4 {
+.test-widget-text02 {
   color: rgba(11, 113, 217, 1);
   height: auto;
   font-size: 16px;
@@ -271,4 +271,20 @@
 .test-widget-arrowrightup {
   width: 24px;
   height: 24px;
+}
+.test-widget-text04 {
+  color: rgb(11, 13, 14);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 28px;
+  padding-left: 10px;
+}
+.test-widget-text07 {
+  color: rgb(11, 13, 14);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 28px;
+  padding-left: 10px;
 }
