@@ -30,12 +30,10 @@ const CareerTestEn = (props) => {
         </div>
         <div className="career-test-en-frame1426">
           <button onClick={props.onClick} className="career-test-en-buttons">
-            <span className="career-test-en-text2">
-              <span>Start free test</span>
-            </span>
+            <span className="career-test-en-text2">Start free test</span>
             <img
               alt="arrow-career-test"
-              src="/assets/easy-widget/arrow-career-test.svg"
+              src="/arrow-career-test.svg"
               className="career-test-en-arrowrightup"
             />
           </button>
@@ -49,7 +47,7 @@ CareerTestEn.defaultProps = {
   onClick: () => {},
   rootClassName: '',
   image_alt: 'image',
-  image_src: '/assets/easy-widget/career-test.png',
+  image_src: '/career-test.png',
 }
 
 CareerTestEn.propTypes = {

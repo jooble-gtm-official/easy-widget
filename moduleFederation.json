@@ -1,0 +1,9 @@
+{
+  "name": "easyWidget",
+  "filename": "easyWidget.js",
+  "exposes": {
+    "./CareerTestDe": "./src/teleporthq/components/career-test-de",
+    "./CareerTestEn": "./src/teleporthq/components/career-test-en",
+    "./JayJayBanner": "./src/teleporthq/components/jay-jay-banner"
+  }
+}

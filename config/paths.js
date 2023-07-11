@@ -5,9 +5,8 @@ const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath);
 
 module.exports = {
-  components: resolveApp('src/teleporthq/components/index.js'),
   componentsDir: resolveApp('src/teleporthq/components'),
-  rootCss: resolveApp('src/teleporthq/style.css'),
+  rootDir: resolveApp('./'),
   publicAssetsDir: resolveApp('public/playground_assets'),
-  appDist: resolveApp('dist'),
+  appDistClient: resolveApp('dist/client'),
 };
