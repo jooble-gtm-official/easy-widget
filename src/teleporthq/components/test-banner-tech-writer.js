@@ -47,16 +47,16 @@ const TestBannerTechWriter = (props) => {
 }
 
 TestBannerTechWriter.defaultProps = {
+  paidLink: '',
   onFreeClick: () => {},
   onPaidClick: () => {},
-  paidLink: '',
   freeLink: '',
 }
 
 TestBannerTechWriter.propTypes = {
+  paidLink: PropTypes.string,
   onFreeClick: PropTypes.func,
   onPaidClick: PropTypes.func,
-  paidLink: PropTypes.string,
   freeLink: PropTypes.string,
 }
 

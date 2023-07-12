@@ -2,11 +2,10 @@
   color: rgb(70, 69, 140);
   width: 100%;
   border: 5px solid rgb(232, 169, 169);
-  height: auto;
+  height: 150px;
   display: flex;
   padding: 10px;
   position: relative;
-  box-sizing: border-box;
   align-items: center;
   flex-direction: column;
   text-decoration: none;
@@ -16,15 +15,19 @@
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
+  text-transform: capitalize;
 }
 .super-banner-subtitle {
-  font-size: 22px;
-  align-self: center;
+  font-size: 20px;
+  font-style: normal;
   margin-top: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 .super-banner-description {
   margin-top: 15px;
+  text-transform: capitalize;
 }
-.super-banner-text {
+.super-banner-region {
   margin-top: 10px;
 }
