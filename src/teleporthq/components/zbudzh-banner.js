@@ -7,57 +7,48 @@ import './zbudzh-banner.css'
 const ZbudzhBanner = (props) => {
   return (
     <div className="zbudzh-banner-container">
-      <div className="zbudzh-banner-frame206885">
-        <div className="zbudzh-banner-frame206817">
-          <div className="zbudzh-banner-frame206816">
-            <span className="zbudzh-banner-text DesktopH3">
-              <span>Boost your career now!</span>
-            </span>
-            <span className="zbudzh-banner-text2 ParagraphP16(default)">
-              <span>
-                Your personal 10-minute daily skill simulator. Take the first
-                step to career growth and success today!
-              </span>
-            </span>
+      <a
+        href={props.Frame_Link}
+        target="_blank"
+        rel="noreferrer noopener"
+        className="zbudzh-banner-link"
+      >
+        <div className="zbudzh-banner-frame206871">
+          <div className="zbudzh-banner-container1">
+            <div className="zbudzh-banner-info-wrapper">
+              <p className="zbudzh-banner-title DesktopH3">{props.Title}</p>
+              <p className="zbudzh-banner-subtitle">{props.Description}</p>
+            </div>
+            <button className="zbudzh-banner-buttons">
+              <span className="zbudzh-banner-text">{props.Button}</span>
+            </button>
           </div>
-          <a
-            href={props.ZbudzhLink}
-            target="_blank"
-            rel="noreferrer noopener"
-            onClick={props.ZbudzhLinkClick}
-            className="zbudzh-banner-buttons"
-          >
-            <span className="zbudzh-banner-text4">
-              <span>Try it for free</span>
-            </span>
-          </a>
+          <img src="/zbudzhimg.png" className="zbudzh-banner-zbudzhicon" />
         </div>
-        <div className="zbudzh-banner-container1">
-          <img
-            src={props.image_src}
-            alt={props.image_alt}
-            className="zbudzh-banner-image"
-          />
-        </div>
-      </div>
+      </a>
     </div>
   )
 }
 
 ZbudzhBanner.defaultProps = {
-  image_src: '/zbudzhimg.png',
-  image_alt: 'image',
-  link_text: '',
-  ZbudzhLink: '',
-  ZbudzhLinkClick: () => {},
+  Frame_LinkClick: () => {},
+  Frame_Link: '',
+  img_src: 'b5e9c657-afff-4223-ab2d-d6ff623a608b',
+  pastedImage_alt1: 'pastedImage',
+  Title: 'Boost your career now!',
+  Description:
+    'Your personal 10-minute daily skill simulator. Take the first step to career growth and success today!',
+  Button: 'Try it for free',
 }
 
 ZbudzhBanner.propTypes = {
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
-  link_text: PropTypes.string,
-  ZbudzhLink: PropTypes.string,
-  ZbudzhLinkClick: PropTypes.func,
+  Frame_LinkClick: PropTypes.func,
+  Frame_Link: PropTypes.string,
+  img_src: PropTypes.string,
+  pastedImage_alt1: PropTypes.string,
+  Title: PropTypes.string,
+  Description: PropTypes.string,
+  Button: PropTypes.string,
 }
 
 export default ZbudzhBanner
