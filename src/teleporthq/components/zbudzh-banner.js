@@ -20,17 +20,23 @@ const ZbudzhBanner = (props) => {
               </span>
             </span>
           </div>
-          <button className="zbudzh-banner-buttons">
+          <a
+            href={props.ZbudzhLink}
+            target="_blank"
+            rel="noreferrer noopener"
+            onClick={props.ZbudzhLinkClick}
+            className="zbudzh-banner-buttons"
+          >
             <span className="zbudzh-banner-text4">
               <span>Try it for free</span>
             </span>
-          </button>
+          </a>
         </div>
         <div className="zbudzh-banner-container1">
           <img
-            src={props.Frame2068791_src1}
-            alt={props.Frame2068791_alt1}
-            className="zbudzh-banner-zbudzh-img"
+            src={props.image_src}
+            alt={props.image_alt}
+            className="zbudzh-banner-image"
           />
         </div>
       </div>
@@ -39,18 +45,19 @@ const ZbudzhBanner = (props) => {
 }
 
 ZbudzhBanner.defaultProps = {
-  Frame2068791_src:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/726baac5-638e-4c00-a100-27802b868207/793c9aa1-b0fc-4616-bd96-41486781c254?org_if_sml=1140384',
-  Frame2068791_alt: 'Frame20687911154',
-  Frame2068791_src1: '/Frame20687911154-hqiv.png',
-  Frame2068791_alt1: 'Frame20687911154',
+  image_src: '/zbudzhimg.png',
+  image_alt: 'image',
+  link_text: '',
+  ZbudzhLink: '',
+  ZbudzhLinkClick: () => {},
 }
 
 ZbudzhBanner.propTypes = {
-  Frame2068791_src: PropTypes.string,
-  Frame2068791_alt: PropTypes.string,
-  Frame2068791_src1: PropTypes.string,
-  Frame2068791_alt1: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
+  link_text: PropTypes.string,
+  ZbudzhLink: PropTypes.string,
+  ZbudzhLinkClick: PropTypes.func,
 }
 
 export default ZbudzhBanner

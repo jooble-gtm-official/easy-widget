@@ -50,6 +50,7 @@
   align-items: center;
   border-radius: 4px;
   justify-content: center;
+  text-decoration: none;
   background-color: rgba(11, 113, 217, 1);
 }
 .zbudzh-banner-text4 {
@@ -69,11 +70,13 @@
   width: 182px;
   height: 151px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
+  justify-content: center;
 }
-.zbudzh-banner-zbudzh-img {
-  width: 172px;
+.zbudzh-banner-image {
+  width: 148px;
   height: 100%;
+  object-fit: cover;
 }
