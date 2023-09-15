@@ -70,6 +70,26 @@
   height: 186px;
   margin-left: 48px;
 }
+@media(max-width: 1400px) {
+  .kate-hackathon-banner-buttons {
+    width: 100%;
+  }
+  .kate-hackathon-banner-pregnatwomen {
+    width: 140px;
+    height: 140px;
+    margin-left: 24px;
+  }
+}
+@media(max-width: 1024px) {
+  .kate-hackathon-banner-buttons {
+    width: 50%;
+  }
+  .kate-hackathon-banner-pregnatwomen {
+    width: 186px;
+    height: 186px;
+    margin-left: 48px;
+  }
+}
 @media(max-width: 480px) {
   .kate-hackathon-banner-frame206871 {
     padding: 16px;
