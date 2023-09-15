@@ -1,12 +1,10 @@
 .kate-hackathon-banner-container {
   width: 100%;
-  height: 400px;
+  cursor: pointer;
   display: flex;
   position: relative;
-  align-items: center;
   font-weight: 700;
   flex-direction: column;
-  justify-content: center;
 }
 .kate-hackathon-banner-link {
   display: contents;
@@ -47,12 +45,9 @@
   line-height: 24px;
 }
 .kate-hackathon-banner-buttons {
-  gap: 10px;
-  width: 128px;
   display: flex;
   padding: 12px 16px;
   margin-top: 16px;
-  align-items: center;
   border-radius: 4px;
   justify-content: center;
   background-color: rgba(11, 113, 217, 1);
@@ -69,17 +64,10 @@
   font-stretch: normal;
   text-decoration: none;
 }
-@media(max-width: 1400px) {
-  .kate-hackathon-banner-img {
-    top: 0px;
-    right: 0px;
-    width: 186px;
-    height: 186px;
-    margin-top: var(--dl-space-space-oneandhalfunits);
-    margin-left: 48px;
-    margin-right: var(--dl-space-space-oneandhalfunits);
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
+.kate-hackathon-banner-pregnatwomen {
+  width: 186px;
+  height: 186px;
+  margin-left: 48px;
 }
 @media(max-width: 480px) {
   .kate-hackathon-banner-frame206871 {
@@ -99,8 +87,7 @@
     width: 100%;
     padding-right: 12px 16px;
   }
-  .kate-hackathon-banner-img {
-    top: 16px;
+  .kate-hackathon-banner-pregnatwomen {
     right: 16px;
     width: 104px;
     height: 104px;

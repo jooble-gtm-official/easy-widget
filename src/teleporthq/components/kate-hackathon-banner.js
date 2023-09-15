@@ -32,8 +32,8 @@ const KateHackathonBanner = (props) => {
           </div>
           <img
             alt={props.pastedImage_alt1}
-            src={props.pastedImage_src1}
-            className="kate-hackathon-banner-img"
+            src={props.img_src}
+            className="kate-hackathon-banner-pregnatwomen"
           />
         </div>
       </a>
@@ -42,28 +42,27 @@ const KateHackathonBanner = (props) => {
 }
 
 KateHackathonBanner.defaultProps = {
-  image_prop:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/726baac5-638e-4c00-a100-27802b868207/714ddfe2-e846-4b8d-8878-604134eab518?org_if_sml=185471',
-  pastedImage_alt: 'pastedImage',
   Frame_LinkClick: () => {},
   Button: 'Доєднатись',
   Description:
     'Долучайтесь до нашої спільноти матусь для підтримки і консультацій 24/7!',
   Title: 'Секс та вагітність. Безкоштовні консультації!',
-  pastedImage_src1: '/pastedImage-6ans.png',
+  image_src: 'b6c2c951-4923-45d7-9864-2ac299ae9b7c',
+  img_src: '/pastedImage-6ans.png',
   pastedImage_alt1: 'pastedImage',
+  image_alt: 'image',
   Frame_Link: '',
 }
 
 KateHackathonBanner.propTypes = {
-  image_prop: PropTypes.string,
-  pastedImage_alt: PropTypes.string,
   Frame_LinkClick: PropTypes.func,
   Button: PropTypes.string,
   Description: PropTypes.string,
   Title: PropTypes.string,
-  pastedImage_src1: PropTypes.string,
+  image_src: PropTypes.string,
+  img_src: PropTypes.string,
   pastedImage_alt1: PropTypes.string,
+  image_alt: PropTypes.string,
   Frame_Link: PropTypes.string,
 }
 
