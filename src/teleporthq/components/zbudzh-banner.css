@@ -1,5 +1,5 @@
 .zbudzh-banner-container {
-  width: 721px;
+  width: auto;
   height: 205px;
   display: flex;
   position: relative;
@@ -79,4 +79,18 @@
   width: 148px;
   height: 100%;
   object-fit: cover;
+}
+@media(max-width: 992px) {
+  .zbudzh-banner-container {
+    width: auto;
+  }
+}
+@media(max-width: 480px) {
+  .zbudzh-banner-container {
+    width: auto;
+  }
+  .zbudzh-banner-frame206885 {
+    width: auto;
+    align-self: center;
+  }
 }
