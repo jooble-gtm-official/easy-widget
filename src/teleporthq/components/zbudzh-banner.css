@@ -1,0 +1,79 @@
+.zbudzh-banner-container {
+  width: 721px;
+  height: 205px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.zbudzh-banner-frame206885 {
+  gap: 14px;
+  width: 721px;
+  height: auto;
+  display: flex;
+  padding: 24px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.zbudzh-banner-frame206817 {
+  gap: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.zbudzh-banner-frame206816 {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.zbudzh-banner-text {
+  color: rgba(56, 62, 71, 1);
+  width: 492px;
+  height: auto;
+  text-align: left;
+  line-height: 32px;
+}
+.zbudzh-banner-text2 {
+  color: rgba(56, 62, 71, 1);
+  width: 492px;
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+.zbudzh-banner-buttons {
+  gap: 10px;
+  display: flex;
+  padding: 12px 16px;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(11, 113, 217, 1);
+}
+.zbudzh-banner-text4 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.zbudzh-banner-container1 {
+  flex: 0 0 auto;
+  width: 182px;
+  height: 151px;
+  display: flex;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.zbudzh-banner-frame2068791 {
+  width: 172px;
+  height: 100%;
+}
