@@ -4,7 +4,6 @@
   display: flex;
   position: relative;
   font-weight: 700;
-  flex-direction: column;
 }
 .kate-hackathon-banner-link {
   display: contents;
@@ -45,6 +44,8 @@
   line-height: 24px;
 }
 .kate-hackathon-banner-buttons {
+  width: 50%;
+  border: unset;
   display: flex;
   padding: 12px 16px;
   margin-top: 16px;
