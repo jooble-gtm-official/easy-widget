@@ -30,7 +30,7 @@ const ZbudzhBanner = (props) => {
           <img
             src={props.Frame2068791_src1}
             alt={props.Frame2068791_alt1}
-            className="zbudzh-banner-frame2068791"
+            className="zbudzh-banner-zbudzh-img"
           />
         </div>
       </div>
