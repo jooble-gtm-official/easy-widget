@@ -6,8 +6,13 @@ import './zbudzh-banner2.css'
 
 const ZbudzhBanner2 = (props) => {
   return (
-    <a href={props.link_container} target="_blank" rel="noreferrer noopener">
-      <div className="zbudzh-banner2-container">
+    <div className="zbudzh-banner2-container">
+      <a
+        href={props.Frame_Link}
+        target="_blank"
+        rel="noreferrer noopener"
+        className="zbudzh-banner2-link"
+      >
         <div
           onClick={props.Frame_LinkClick}
           className="zbudzh-banner2-frame206871"
@@ -23,13 +28,12 @@ const ZbudzhBanner2 = (props) => {
           </div>
           <img src="/zbudzhimg.png" className="zbudzh-banner2-zbudzhicon" />
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
   )
 }
 
 ZbudzhBanner2.defaultProps = {
-  link_container: '',
   Button: 'Try it for free',
   Title: 'Boost your career now!',
   Frame_LinkClick: () => {},
@@ -39,7 +43,6 @@ ZbudzhBanner2.defaultProps = {
 }
 
 ZbudzhBanner2.propTypes = {
-  link_container: PropTypes.string,
   Button: PropTypes.string,
   Title: PropTypes.string,
   Frame_LinkClick: PropTypes.func,

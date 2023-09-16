@@ -4,7 +4,9 @@
   display: flex;
   position: relative;
   font-weight: 700;
-  text-decoration: none;
+}
+.zbudzh-banner2-link {
+  display: contents;
 }
 .zbudzh-banner2-frame206871 {
   width: 100%;
