@@ -8,7 +8,10 @@ const SkillifyHackathonBanner = (props) => {
   return (
     <a href={props.link_container} target="_blank" rel="noreferrer noopener">
       <div className="skillify-hackathon-banner-container">
-        <div className="skillify-hackathon-banner-frame206871">
+        <div
+          onClick={props.Frame_LinkClickS}
+          className="skillify-hackathon-banner-frame206871"
+        >
           <div className="skillify-hackathon-banner-container1">
             <div className="skillify-hackathon-banner-info-wrapper">
               <p className="skillify-hackathon-banner-title DesktopH3">
@@ -35,22 +38,22 @@ const SkillifyHackathonBanner = (props) => {
 }
 
 SkillifyHackathonBanner.defaultProps = {
+  link_container: '',
+  Frame_LinkClickS: () => {},
+  Frame_LinkS: '',
+  Title: 'Unleash your growth!',
   Description:
     'Acquire tailored development plans crafted just for you, accompanied by seasoned mentors prepared to guide you through each step.',
-  Frame_LinkClick: () => {},
-  Frame_Link: '',
   Button: 'Begin your free journey',
-  Title: 'Unleash your growth!',
-  link_container: '',
 }
 
 SkillifyHackathonBanner.propTypes = {
-  Description: PropTypes.string,
-  Frame_LinkClick: PropTypes.func,
-  Frame_Link: PropTypes.string,
-  Button: PropTypes.string,
-  Title: PropTypes.string,
   link_container: PropTypes.string,
+  Frame_LinkClickS: PropTypes.func,
+  Frame_LinkS: PropTypes.string,
+  Title: PropTypes.string,
+  Description: PropTypes.string,
+  Button: PropTypes.string,
 }
 
 export default SkillifyHackathonBanner
