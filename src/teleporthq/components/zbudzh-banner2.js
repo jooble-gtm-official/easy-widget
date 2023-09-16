@@ -6,14 +6,12 @@ import './zbudzh-banner2.css'
 
 const ZbudzhBanner2 = (props) => {
   return (
-    <div className="zbudzh-banner2-container">
-      <a
-        href={props.Frame_Link}
-        target="_blank"
-        rel="noreferrer noopener"
-        className="zbudzh-banner2-link"
-      >
-        <div className="zbudzh-banner2-frame206871">
+    <a href={props.link_container} target="_blank" rel="noreferrer noopener">
+      <div className="zbudzh-banner2-container">
+        <div
+          onClick={props.Frame_LinkClick}
+          className="zbudzh-banner2-frame206871"
+        >
           <div className="zbudzh-banner2-container1">
             <div className="zbudzh-banner2-info-wrapper">
               <p className="zbudzh-banner2-title DesktopH3">{props.Title}</p>
@@ -25,30 +23,28 @@ const ZbudzhBanner2 = (props) => {
           </div>
           <img src="/zbudzhimg.png" className="zbudzh-banner2-zbudzhicon" />
         </div>
-      </a>
-    </div>
+      </div>
+    </a>
   )
 }
 
 ZbudzhBanner2.defaultProps = {
-  Frame_LinkClick: () => {},
-  Frame_Link: '',
-  img_src: 'b5e9c657-afff-4223-ab2d-d6ff623a608b',
-  pastedImage_alt1: 'pastedImage',
+  link_container: '',
+  Button: 'Try it for free',
   Title: 'Boost your career now!',
+  Frame_LinkClick: () => {},
   Description:
     'Your personal 10-minute daily skill simulator. Take the first step to career growth and success today!',
-  Button: 'Try it for free',
+  Frame_Link: '',
 }
 
 ZbudzhBanner2.propTypes = {
-  Frame_LinkClick: PropTypes.func,
-  Frame_Link: PropTypes.string,
-  img_src: PropTypes.string,
-  pastedImage_alt1: PropTypes.string,
-  Title: PropTypes.string,
-  Description: PropTypes.string,
+  link_container: PropTypes.string,
   Button: PropTypes.string,
+  Title: PropTypes.string,
+  Frame_LinkClick: PropTypes.func,
+  Description: PropTypes.string,
+  Frame_Link: PropTypes.string,
 }
 
 export default ZbudzhBanner2
