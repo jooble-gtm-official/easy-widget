@@ -35,22 +35,22 @@ const SkillifyHackathonBanner = (props) => {
 }
 
 SkillifyHackathonBanner.defaultProps = {
-  link_container: '',
-  Frame_LinkClick: () => {},
-  Frame_Link: '',
-  Title: 'Unleash your growth!',
   Description:
     'Acquire tailored development plans crafted just for you, accompanied by seasoned mentors prepared to guide you through each step.',
+  Frame_LinkClick: () => {},
+  Frame_Link: '',
   Button: 'Begin your free journey',
+  Title: 'Unleash your growth!',
+  link_container: '',
 }
 
 SkillifyHackathonBanner.propTypes = {
-  link_container: PropTypes.string,
+  Description: PropTypes.string,
   Frame_LinkClick: PropTypes.func,
   Frame_Link: PropTypes.string,
-  Title: PropTypes.string,
-  Description: PropTypes.string,
   Button: PropTypes.string,
+  Title: PropTypes.string,
+  link_container: PropTypes.string,
 }
 
 export default SkillifyHackathonBanner
