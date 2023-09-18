@@ -11,17 +11,17 @@ const TerazRecruit = (props) => {
         <div className="teraz-recruit-frame1425">
           <div className="teraz-recruit-img">
             <img
-              src={props.image_src1}
               alt={props.image_alt1}
+              src={props.image_src1}
               className="teraz-recruit-image"
             />
           </div>
           <div className="teraz-recruit-frame1421">
             <div className="teraz-recruit-frame1418">
-              <span className="teraz-recruit-text MobileH2">
-                <span>Працюй рекрутером віддалено</span>
+              <span className="teraz-recruit-text">
+                Працюй рекрутером віддалено
               </span>
-              <span className="teraz-recruit-text2 ParagraphP16(default)">
+              <span className="teraz-recruit-text1 ParagraphP16(default)">
                 <span>
                   Заробляй до 8000 грн за кожного працевлаштованого кандидата
                 </span>
@@ -36,7 +36,7 @@ const TerazRecruit = (props) => {
           onClick={props.Link_Click}
           className="teraz-recruit-buttons"
         >
-          <span className="teraz-recruit-text4">
+          <span className="teraz-recruit-text3">
             <span>Стати рекрутером</span>
           </span>
         </a>

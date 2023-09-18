@@ -59,11 +59,16 @@
 .teraz-recruit-text {
   color: var(--dl-color-gray-black);
   height: auto;
+  font-size: 20px;
   align-self: stretch;
+  font-style: normal;
   text-align: center;
+  font-family: Inter;
+  font-weight: 700;
   line-height: 28px;
+  font-stretch: normal;
 }
-.teraz-recruit-text2 {
+.teraz-recruit-text1 {
   color: var(--dl-color-gray-graydark);
   height: auto;
   align-self: stretch;
@@ -84,7 +89,7 @@
   text-decoration: none;
   background-color: rgba(19, 127, 99, 1);
 }
-.teraz-recruit-text4 {
+.teraz-recruit-text3 {
   color: RGB(255,255,255,1);
   height: auto;
   font-size: 16px;
