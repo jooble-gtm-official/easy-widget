@@ -1,5 +1,7 @@
 import React from 'react'
 
+import PropTypes from 'prop-types'
+
 import './teraz-recruit.css'
 
 const TerazRecruit = (props) => {
@@ -27,14 +29,30 @@ const TerazRecruit = (props) => {
             </div>
           </div>
         </div>
-        <button className="teraz-recruit-buttons">
+        <a
+          href={props.Link_URL}
+          target="_blank"
+          rel="noreferrer noopener"
+          onClick={props.Link_Click}
+          className="teraz-recruit-buttons"
+        >
           <span className="teraz-recruit-text4">
             <span>Стати рекрутером</span>
           </span>
-        </button>
+        </a>
       </div>
     </div>
   )
+}
+
+TerazRecruit.defaultProps = {
+  Link_URL: '',
+  Link_Click: () => {},
+}
+
+TerazRecruit.propTypes = {
+  Link_URL: PropTypes.string,
+  Link_Click: PropTypes.func,
 }
 
 export default TerazRecruit

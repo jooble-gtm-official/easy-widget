@@ -1,6 +1,6 @@
 .teraz-recruit-container {
-  width: 100%;
-  height: 400px;
+  width: 300px;
+  height: auto;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -81,10 +81,11 @@
   flex-shrink: 0;
   border-radius: 4px;
   justify-content: center;
+  text-decoration: none;
   background-color: rgba(19, 127, 99, 1);
 }
 .teraz-recruit-text4 {
-  color: var(--dl-color-default-white);
+  color: var(--dl-color-gray-white);
   height: auto;
   font-size: 16px;
   font-style: Medium;
