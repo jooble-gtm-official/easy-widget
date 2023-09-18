@@ -8,7 +8,7 @@
 }
 .teraz-recruit-frame1427 {
   gap: 16px;
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   padding: 16px;
@@ -34,11 +34,11 @@
   position: relative;
   flex-shrink: 0;
   border-radius: 6px;
+  justify-content: center;
 }
-.teraz-recruit-img31 {
-  width: 268px;
-  height: 135px;
-  position: absolute;
+.teraz-recruit-img32 {
+  width: auto;
+  height: 100%;
 }
 .teraz-recruit-frame1421 {
   gap: 2px;
