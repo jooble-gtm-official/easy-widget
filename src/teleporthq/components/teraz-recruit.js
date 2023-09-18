@@ -11,9 +11,9 @@ const TerazRecruit = (props) => {
         <div className="teraz-recruit-frame1425">
           <div className="teraz-recruit-img">
             <img
-              src={props.img32_src}
-              alt={props.img32_alt}
-              className="teraz-recruit-img32"
+              src={props.image_src1}
+              alt={props.image_alt1}
+              className="teraz-recruit-image"
             />
           </div>
           <div className="teraz-recruit-frame1421">
@@ -46,17 +46,17 @@ const TerazRecruit = (props) => {
 }
 
 TerazRecruit.defaultProps = {
-  Link_URL: '',
   Link_Click: () => {},
-  img32_src: '/img32723-4dha.png',
-  img32_alt: 'img32723',
+  Link_URL: '',
+  image_src1: '/teraz_recruit_banner.png',
+  image_alt1: 'image',
 }
 
 TerazRecruit.propTypes = {
-  Link_URL: PropTypes.string,
   Link_Click: PropTypes.func,
-  img32_src: PropTypes.string,
-  img32_alt: PropTypes.string,
+  Link_URL: PropTypes.string,
+  image_src1: PropTypes.string,
+  image_alt1: PropTypes.string,
 }
 
 export default TerazRecruit
