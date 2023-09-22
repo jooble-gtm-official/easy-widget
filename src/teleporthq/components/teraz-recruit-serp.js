@@ -19,8 +19,8 @@ const TerazRecruitSerp = (props) => {
         >
           <div className="teraz-recruit-serp-frame632">
             <img
-              src="/teraz_recruit_serp_banner_logo.png"
               alt="Logo41113"
+              src="/teraz_recruit_serp_banner_logo.png"
               className="teraz-recruit-serp-logo41"
             />
             <span className="teraz-recruit-serp-text">Teraz Work</span>
@@ -39,8 +39,8 @@ const TerazRecruitSerp = (props) => {
           <div className="teraz-recruit-serp-frame635">
             <div className="teraz-recruit-serp-frame633">
               <img
-                src="/teraz_recruit_serp_banner_check1.svg"
                 alt="check119"
+                src="/teraz_recruit_serp_banner_check1.svg"
                 className="teraz-recruit-serp-check"
               />
               <span className="teraz-recruit-serp-text06">
@@ -49,8 +49,8 @@ const TerazRecruitSerp = (props) => {
             </div>
             <div className="teraz-recruit-serp-frame634">
               <img
-                src="/teraz_recruit_serp_banner_check2.svg"
                 alt="check122"
+                src="/teraz_recruit_serp_banner_check2.svg"
                 className="teraz-recruit-serp-check1"
               />
               <span className="teraz-recruit-serp-text08">
@@ -59,8 +59,8 @@ const TerazRecruitSerp = (props) => {
             </div>
             <div className="teraz-recruit-serp-frame6351">
               <img
-                src="/teraz_recruit_serp_banner_check3.svg"
                 alt="check125"
+                src="/teraz_recruit_serp_banner_check3.svg"
                 className="teraz-recruit-serp-check2"
               />
               <span className="teraz-recruit-serp-text10">
