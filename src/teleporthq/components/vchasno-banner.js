@@ -8,14 +8,15 @@ const VchasnoBanner = (props) => {
   return (
     <div className="vchasno-banner-container">
       <a
-        href="https://biznes-bez-paperu.com.ua/?utm_source=Jooble-search&amp;utm_medium=forumBBP#kvutku"
+        href={props.vchasno_image_link}
         target="_blank"
         rel="noreferrer noopener"
         className="vchasno-banner-link"
       >
         <img
-          src={props.image_src1}
-          alt={props.image_alt1}
+          src={props.image_src2}
+          alt={props.image_alt2}
+          onClick={props.vchasno_image_click}
           className="vchasno-banner-image"
         />
       </a>
@@ -24,19 +25,19 @@ const VchasnoBanner = (props) => {
 }
 
 VchasnoBanner.defaultProps = {
-  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  image_alt: 'image',
-  image_src1: '/vhasno_banner.png.jpg',
-  image_alt1: 'image',
-  button: 'Button',
+  image_src2: '/vhasno_banner.jpg',
+  image_alt2: 'image',
+  vchasno_image_link: '',
+  vchasno_img_click: () => {},
+  vchasno_image_click: () => {},
 }
 
 VchasnoBanner.propTypes = {
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
-  image_src1: PropTypes.string,
-  image_alt1: PropTypes.string,
-  button: PropTypes.string,
+  image_src2: PropTypes.string,
+  image_alt2: PropTypes.string,
+  vchasno_image_link: PropTypes.string,
+  vchasno_img_click: PropTypes.func,
+  vchasno_image_click: PropTypes.func,
 }
 
 export default VchasnoBanner
