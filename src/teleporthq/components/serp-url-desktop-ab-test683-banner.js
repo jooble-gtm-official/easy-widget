@@ -31,9 +31,9 @@ const SerpUrlDesktopABTest683Banner = (props) => {
         </div>
         <div className="serp-url-desktop-ab-test683-banner-frame206881">
           <img
-            src="/mechaniccolorlight1180-lsq.svg"
-            alt="mechaniccolorlight1180"
-            className="serp-url-desktop-ab-test683-banner-mechaniccolorlight1"
+            src={props.image_src}
+            alt={props.image_alt}
+            className="serp-url-desktop-ab-test683-banner-image"
           />
         </div>
       </div>
@@ -47,6 +47,8 @@ SerpUrlDesktopABTest683Banner.defaultProps = {
   button_text: 'Create a profile',
   create_profile_url: 'https://ua.jooble.org/auth/registration/phone',
   desktop_create_profile_click: () => {},
+  image_src: '/mechanik_serp365.png',
+  image_alt: 'image',
 }
 
 SerpUrlDesktopABTest683Banner.propTypes = {
@@ -55,6 +57,8 @@ SerpUrlDesktopABTest683Banner.propTypes = {
   button_text: PropTypes.string,
   create_profile_url: PropTypes.string,
   desktop_create_profile_click: PropTypes.func,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default SerpUrlDesktopABTest683Banner

@@ -1,11 +1,11 @@
 .serp-url-desktop-ab-test683-banner-container {
   width: 100%;
-  height: 400px;
+  height: 203px;
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .serp-url-desktop-ab-test683-banner-frame206885 {
   width: 100%;
@@ -73,7 +73,14 @@
   align-items: center;
   justify-content: flex-end;
 }
-.serp-url-desktop-ab-test683-banner-mechaniccolorlight1 {
-  width: 151px;
-  height: 151px;
+.serp-url-desktop-ab-test683-banner-image {
+  width: 156px;
+  height: 139px;
+  object-fit: cover;
+}
+@media(max-width: 768px) {
+  .serp-url-desktop-ab-test683-banner-image {
+    width: 156px;
+    height: 139px;
+  }
 }

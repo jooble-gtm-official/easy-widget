@@ -1,6 +1,6 @@
 .serp-url-mobile-ab-test683-banner-container {
   width: 100%;
-  height: 400px;
+  height: 239px;
   display: flex;
   position: relative;
   align-items: center;
@@ -10,7 +10,7 @@
 .serp-url-mobile-ab-test683-banner-frame206886 {
   gap: 16px;
   width: 100%;
-  height: auto;
+  height: 223px;
   display: flex;
   padding: 16px;
   align-items: flex-start;
@@ -59,9 +59,9 @@
   align-items: center;
   justify-content: center;
 }
-.serp-url-mobile-ab-test683-banner-mechaniccolorlight1 {
-  width: 92px;
-  height: 92px;
+.serp-url-mobile-ab-test683-banner-image {
+  width: 200px;
+  object-fit: cover;
 }
 .serp-url-mobile-ab-test683-banner-buttons {
   gap: 10px;
@@ -85,6 +85,11 @@
   line-height: 24px;
   font-stretch: normal;
   text-decoration: none;
+}
+@media(max-width: 768px) {
+  .serp-url-mobile-ab-test683-banner-image {
+    width: 104px;
+  }
 }
 @media(max-width: 480px) {
   .serp-url-mobile-ab-test683-banner-frame206826 {

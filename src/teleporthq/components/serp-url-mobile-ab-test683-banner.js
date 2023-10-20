@@ -19,9 +19,9 @@ const SerpUrlMobileABTest683Banner = (props) => {
           </div>
           <div className="serp-url-mobile-ab-test683-banner-frame206880">
             <img
-              src="/mechaniccolorlight1178-g26i.svg"
-              alt="mechaniccolorlight1178"
-              className="serp-url-mobile-ab-test683-banner-mechaniccolorlight1"
+              src={props.image_src}
+              alt={props.image_alt}
+              className="serp-url-mobile-ab-test683-banner-image"
             />
           </div>
         </div>
@@ -48,6 +48,8 @@ SerpUrlMobileABTest683Banner.defaultProps = {
   paragraph_text: 'Create a profile on Jooble and we will find you a job.',
   button_text: 'Create a profile',
   mobile_create_profile_click: () => {},
+  image_src: '/mechanik_serp365.png',
+  image_alt: 'image',
 }
 
 SerpUrlMobileABTest683Banner.propTypes = {
@@ -57,6 +59,8 @@ SerpUrlMobileABTest683Banner.propTypes = {
   paragraph_text: PropTypes.string,
   button_text: PropTypes.string,
   mobile_create_profile_click: PropTypes.func,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default SerpUrlMobileABTest683Banner
