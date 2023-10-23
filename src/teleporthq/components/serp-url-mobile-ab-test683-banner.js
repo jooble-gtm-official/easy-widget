@@ -19,8 +19,8 @@ const SerpUrlMobileABTest683Banner = (props) => {
           </div>
           <div className="serp-url-mobile-ab-test683-banner-frame206880">
             <img
-              src={props.image_src}
               alt={props.image_alt}
+              src={props.image_src}
               className="serp-url-mobile-ab-test683-banner-image"
             />
           </div>
@@ -43,23 +43,23 @@ const SerpUrlMobileABTest683Banner = (props) => {
 
 SerpUrlMobileABTest683Banner.defaultProps = {
   create_profile_url: 'https://ua.jooble.org/auth/registration/phone',
-  desktop_create_profile_click: () => {},
   title_text: 'Tired of searching? Start working!',
-  paragraph_text: 'Create a profile on Jooble and we will find you a job.',
   button_text: 'Create a profile',
-  mobile_create_profile_click: () => {},
   image_src: '/mechanik_serp365.png',
+  mobile_create_profile_click: () => {},
+  desktop_create_profile_click: () => {},
+  paragraph_text: 'Create a profile on Jooble and we will find you a job.',
   image_alt: 'image',
 }
 
 SerpUrlMobileABTest683Banner.propTypes = {
   create_profile_url: PropTypes.string,
-  desktop_create_profile_click: PropTypes.func,
   title_text: PropTypes.string,
-  paragraph_text: PropTypes.string,
   button_text: PropTypes.string,
-  mobile_create_profile_click: PropTypes.func,
   image_src: PropTypes.string,
+  mobile_create_profile_click: PropTypes.func,
+  desktop_create_profile_click: PropTypes.func,
+  paragraph_text: PropTypes.string,
   image_alt: PropTypes.string,
 }
 

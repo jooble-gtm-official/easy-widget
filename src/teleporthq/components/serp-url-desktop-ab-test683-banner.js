@@ -31,8 +31,8 @@ const SerpUrlDesktopABTest683Banner = (props) => {
         </div>
         <div className="serp-url-desktop-ab-test683-banner-frame206881">
           <img
-            src={props.image_src}
             alt={props.image_alt}
+            src={props.image_src}
             className="serp-url-desktop-ab-test683-banner-image"
           />
         </div>
@@ -43,22 +43,22 @@ const SerpUrlDesktopABTest683Banner = (props) => {
 
 SerpUrlDesktopABTest683Banner.defaultProps = {
   title_text: 'Tired of searching? Start working!',
-  paragraph_text: 'Create a profile on Jooble and we will find you a job.',
-  button_text: 'Create a profile',
   create_profile_url: 'https://ua.jooble.org/auth/registration/phone',
-  desktop_create_profile_click: () => {},
-  image_src: '/mechanik_serp365.png',
   image_alt: 'image',
+  paragraph_text: 'Create a profile on Jooble and we will find you a job.',
+  image_src: '/mechanik_serp365.png',
+  desktop_create_profile_click: () => {},
+  button_text: 'Create a profile',
 }
 
 SerpUrlDesktopABTest683Banner.propTypes = {
   title_text: PropTypes.string,
-  paragraph_text: PropTypes.string,
-  button_text: PropTypes.string,
   create_profile_url: PropTypes.string,
-  desktop_create_profile_click: PropTypes.func,
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  paragraph_text: PropTypes.string,
+  image_src: PropTypes.string,
+  desktop_create_profile_click: PropTypes.func,
+  button_text: PropTypes.string,
 }
 
 export default SerpUrlDesktopABTest683Banner
