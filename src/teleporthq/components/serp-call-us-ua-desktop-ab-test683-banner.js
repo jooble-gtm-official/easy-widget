@@ -18,7 +18,9 @@ const SerpCallUsUaDesktopABTest683Banner = (props) => {
             </span>
           </div>
           <a
-            href="tel:+380672972326"
+            href={props.call_button}
+            target="_blank"
+            rel="noreferrer noopener"
             onClick={props.desktop_call_click}
             className="serp-call-us-ua-desktop-ab-test683-banner-buttons"
           >
@@ -49,6 +51,7 @@ SerpCallUsUaDesktopABTest683Banner.defaultProps = {
   title_text: 'One call - and you are at a new job',
   image_alt1: 'image',
   desktop_call_click: () => {},
+  call_button: '',
 }
 
 SerpCallUsUaDesktopABTest683Banner.propTypes = {
@@ -58,6 +61,7 @@ SerpCallUsUaDesktopABTest683Banner.propTypes = {
   title_text: PropTypes.string,
   image_alt1: PropTypes.string,
   desktop_call_click: PropTypes.func,
+  call_button: PropTypes.string,
 }
 
 export default SerpCallUsUaDesktopABTest683Banner

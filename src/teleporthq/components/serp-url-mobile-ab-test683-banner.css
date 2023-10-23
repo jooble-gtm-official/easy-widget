@@ -87,3 +87,8 @@
   font-stretch: normal;
   text-decoration: none;
 }
+@media(max-width: 768px) {
+  .serp-url-mobile-ab-test683-banner-container {
+    height: 217px;
+  }
+}

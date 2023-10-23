@@ -26,7 +26,9 @@ const SerpCallUsUaMobileABTest683Banner = (props) => {
           </div>
         </div>
         <a
-          href="tel:+380672972326"
+          href={props.call_button}
+          target="_blank"
+          rel="noreferrer noopener"
           onClick={props.mobile_call_click}
           className="serp-call-us-ua-mobile-ab-test683-banner-buttons"
         >
@@ -46,6 +48,7 @@ SerpCallUsUaMobileABTest683Banner.defaultProps = {
   image_src: '/bell1.png',
   image_alt: 'image',
   mobile_call_click: () => {},
+  call_button: '',
 }
 
 SerpCallUsUaMobileABTest683Banner.propTypes = {
@@ -55,6 +58,7 @@ SerpCallUsUaMobileABTest683Banner.propTypes = {
   image_src: PropTypes.string,
   image_alt: PropTypes.string,
   mobile_call_click: PropTypes.func,
+  call_button: PropTypes.string,
 }
 
 export default SerpCallUsUaMobileABTest683Banner
