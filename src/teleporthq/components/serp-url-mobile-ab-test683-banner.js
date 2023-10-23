@@ -19,16 +19,14 @@ const SerpUrlMobileABTest683Banner = (props) => {
           </div>
           <div className="serp-url-mobile-ab-test683-banner-frame206880">
             <img
-              alt={props.image_alt}
-              src={props.image_src}
+              src={props.image_src1}
+              alt={props.image_alt1}
               className="serp-url-mobile-ab-test683-banner-image"
             />
           </div>
         </div>
         <a
           href={props.create_profile_url}
-          target="_blank"
-          rel="noreferrer noopener"
           onClick={props.mobile_create_profile_click}
           className="serp-url-mobile-ab-test683-banner-buttons"
         >
@@ -45,22 +43,20 @@ SerpUrlMobileABTest683Banner.defaultProps = {
   create_profile_url: 'https://ua.jooble.org/auth/registration/phone',
   title_text: 'Tired of searching? Start working!',
   button_text: 'Create a profile',
-  image_src: '/mechanik_serp365.png',
-  mobile_create_profile_click: () => {},
-  desktop_create_profile_click: () => {},
   paragraph_text: 'Create a profile on Jooble and we will find you a job.',
-  image_alt: 'image',
+  image_src1: '/mechanik_serp365.png',
+  image_alt1: 'image',
+  mobile_create_profile_click: () => {},
 }
 
 SerpUrlMobileABTest683Banner.propTypes = {
   create_profile_url: PropTypes.string,
   title_text: PropTypes.string,
   button_text: PropTypes.string,
-  image_src: PropTypes.string,
-  mobile_create_profile_click: PropTypes.func,
-  desktop_create_profile_click: PropTypes.func,
   paragraph_text: PropTypes.string,
-  image_alt: PropTypes.string,
+  image_src1: PropTypes.string,
+  image_alt1: PropTypes.string,
+  mobile_create_profile_click: PropTypes.func,
 }
 
 export default SerpUrlMobileABTest683Banner
