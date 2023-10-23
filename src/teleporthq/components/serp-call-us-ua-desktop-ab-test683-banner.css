@@ -1,6 +1,6 @@
 .serp-call-us-ua-desktop-ab-test683-banner-container {
   width: 100%;
-  height: 203px;
+  height: 225px;
   display: flex;
   position: relative;
   align-items: center;
@@ -80,4 +80,9 @@
 .serp-call-us-ua-desktop-ab-test683-banner-image {
   width: 155px;
   object-fit: cover;
+}
+@media(max-width: 1400px) {
+  .serp-call-us-ua-desktop-ab-test683-banner-container {
+    height: 230px;
+  }
 }
