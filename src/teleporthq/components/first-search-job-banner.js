@@ -27,14 +27,20 @@ const FirstSearchJobBanner = (props) => {
               {props.BenefitsTitle}
             </span>
             <ul>
-              <li className="first-search-job-banner-text2">
-                {props.FirstBenefit}
+              <li>
+                <span className="first-search-job-banner-text2">
+                  {props.FirstBenefit}
+                </span>
               </li>
-              <li className="first-search-job-banner-text3">
-                {props.SecondBenefit}
+              <li>
+                <span className="first-search-job-banner-text3">
+                  {props.SecondBenefit}
+                </span>
               </li>
-              <li className="first-search-job-banner-text4">
-                {props.ThirdBenefit}
+              <li>
+                <span className="first-search-job-banner-text4">
+                  {props.ThirdBenefit}
+                </span>
               </li>
             </ul>
           </div>
