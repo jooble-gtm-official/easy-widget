@@ -26,8 +26,7 @@
   border-radius: 8px 8px 0 0;
   background-size: cover;
   justify-content: center;
-  background-image: url("/Rectangle12570168-seut.png");
-  background-position: center;
+  background: linear-gradient(173.69deg, #238BF3 5.99%, #BDDCFB 95.75%);
 }
 .first-search-job-banner-text {
   top: 13px;
