@@ -49,12 +49,7 @@ const FirstSearchJobBanner = (props) => {
               </span>
             </a>
           </div>
-        </div>
-        <img
-          src="/Rectangle12550171-klds.png"
-          alt="Rectangle12550171"
-          className="first-search-job-banner-rectangle1255"
-        />
+        </div>       
       </div>
     </div>
   )
