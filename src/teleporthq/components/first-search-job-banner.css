@@ -1,10 +1,10 @@
 .first-search-job-banner-container {
   width: 302px;
-  height: 400px;
   display: flex;
   position: relative;
   align-items: flex-start;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 .first-search-job-banner-subscribe {
   gap: 16px;
@@ -99,6 +99,7 @@
   line-height: 20px;
   font-stretch: normal;
   text-decoration: none;
+  padding-left: 10px;
 }
 .first-search-job-banner-text3 {
   color: rgb(56, 62, 71);
@@ -112,6 +113,7 @@
   line-height: 20px;
   font-stretch: normal;
   text-decoration: none;
+  padding-left: 10px;
 }
 .first-search-job-banner-text4 {
   color: rgb(56, 62, 71);
@@ -125,6 +127,7 @@
   line-height: 20px;
   font-stretch: normal;
   text-decoration: none;
+  padding-left: 10px;
 }
 .first-search-job-banner-frame542 {
   gap: 12px;
