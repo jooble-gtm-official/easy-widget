@@ -103,6 +103,7 @@
   width: 300px;
   height: 132px;
   object-fit: cover;
+  border-radius: 8px;
 }
 .second-search-job-banner-text2 {
   top: 144px;
