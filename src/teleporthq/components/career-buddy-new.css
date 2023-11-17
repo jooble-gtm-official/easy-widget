@@ -1,0 +1,111 @@
+.career-buddy-new-container {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+.career-buddy-new-frame206871 {
+  width: 100%;
+  display: flex;
+  padding: 24px;
+  box-sizing: border-box;
+  padding-left: 24px;
+  border-radius: 8px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.career-buddy-new-container1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.career-buddy-new-info-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.career-buddy-new-title {
+  color: rgba(56, 62, 71, 1);
+  height: auto;
+  display: flex;
+  font-size: 24px;
+  font-style: normal;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700px;
+  line-height: 32px;
+  font-stretch: normal;
+  margin-bottom: 8px;
+}
+.career-buddy-new-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
+.career-buddy-new-subtitle {
+  color: rgba(56, 62, 71, 1);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+}
+.career-buddy-new-shape {
+  width: 11px;
+  height: 15px;
+  margin-top: 6px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.career-buddy-new-buttons {
+  width: 100%;
+  border: unset;
+  display: flex;
+  padding: 12px 16px;
+  max-width: 215px;
+  margin-top: 16px;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgba(11, 113, 217, 1);
+}
+.career-buddy-new-text {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.career-buddy-new-facewithsteamfromnose {
+  width: 114px;
+  height: 114px;
+  margin-top: 10px;
+  margin-left: 48px;
+}
+@media(max-width: 768px) {
+  .career-buddy-new-frame206871 {
+    margin-left: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 480px) {
+  .career-buddy-new-frame206871 {
+    padding: 16px;
+    margin-right: 0px;
+  }
+  .career-buddy-new-subtitle {
+    font-size: 15px;
+  }
+  .career-buddy-new-facewithsteamfromnose {
+    width: 104px;
+    height: 104px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
