@@ -1,4 +1,4 @@
-.budinok-igrashok-company-banner-container {
+.winner-company-banner-container {
     width: 100%;
     height: auto;
     display: flex;
@@ -6,14 +6,14 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .budinok-igrashok-company-banner-colorframe {
+  .winner-company-banner-colorframe {
     gap: 16px;
     width: 100%;
     height: auto;
     display: flex;
     padding: 16px;
     overflow: hidden;
-    background: radial-gradient(90.13% 231.91% at 88.22% 31.25%, rgba(216, 143, 255, 0.5) 0%, rgba(215, 151, 255, 0.5) 23.42%, rgba(247, 128, 253, 0.5) 54.98%, rgba(255, 197, 232, 0.5) 100%);
+    background: radial-gradient(68.92% 176.57% at 67.2% 35.42%, rgba(139, 196, 237, 0.3) 0%, rgba(62, 74, 187, 0.3) 100%),linear-gradient(0deg, #FFFFFF, #FFFFFF);
     box-sizing: border-box;
     align-items: flex-start;
     flex-shrink: 0;
@@ -21,47 +21,37 @@
     flex-direction: column;
     background-color: rgba(255, 255, 255, 1);
   }
-  .budinok-igrashok-company-banner-container1 {
-    flex: 0 0 auto;
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .budinok-igrashok-company-banner-frame206888 {
+  .winner-company-banner-frame206888 {
     width: 100%;
     display: flex;
     overflow: hidden;
     align-items: flex-start;
     justify-content: space-between;
   }
-  .budinok-igrashok-company-banner-frame206887 {
+  .winner-company-banner-frame206887 {
     gap: 8px;
     display: flex;
     overflow: hidden;
-    position: relative;
     align-items: flex-start;
     flex-direction: column;
   }
-  .budinok-igrashok-company-banner-text {
+  .winner-company-banner-text {
     color: rgba(56, 62, 71, 1);
-    width: 181px;
+    width: 193px;
     height: auto;
     font-size: 18px;
     font-style: Bold;
     text-align: left;
-    font-family: "Inter", "Display";
+    font-family: "Inter";
     font-weight: 700;
     line-height: 129.99999523162842%;
     font-stretch: normal;
     text-decoration: none;
   }
-  .budinok-igrashok-company-banner-text2 {
+  .winner-company-banner-text2 {
     color: rgba(56, 62, 71, 1);
-    width: 166px;
+    width: 193px;
     height: auto;
-    z-index: 1;
     font-size: 14px;
     font-style: Regular;
     text-align: left;
@@ -71,17 +61,18 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .budinok-igrashok-company-banner-frame206889 {
+  .winner-company-banner-frame206889 {
     gap: 10px;
     display: flex;
     overflow: hidden;
+    position: relative;
     align-items: flex-start;
   }
-  .budinok-igrashok-company-banner-image {
-    width: 92px;
+  .winner-company-banner-image {
+    width: 75px;
     object-fit: cover;
   }
-  .budinok-igrashok-company-banner-buttons {
+  .winner-company-banner-buttons {
     gap: 10px;
     display: flex;
     padding: 12px 16px;
@@ -94,7 +85,7 @@
     text-decoration: none;
     background-color: rgba(11, 113, 217, 1);
   }
-  .budinok-igrashok-company-banner-text4 {
+  .winner-company-banner-text4 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 16px;
@@ -106,3 +97,4 @@
     font-stretch: normal;
     text-decoration: none;
   }
+  
