@@ -2,35 +2,41 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import styles from './wog-company-banner.module.css'
+import './wog-company-banner.css'
 
 const WogCompanyBanner = (props) => {
   return (
-    <div className={styles['container']}>
-      <div className={styles['wog']}>
-        <div className={styles['colorframe']}>
-          <div className={styles['frame206888']}>
-            <div className={styles['frame206887']}>
-              <span className={styles['text']}>
-                Долучайся до команди WOGонь 🔥
+    <div className="wog-company-banner-container">
+      <div className="wog-company-banner-wog">
+        <div className="wog-company-banner-colorframe">
+          <div className="wog-company-banner-frame206888">
+            <div className="wog-company-banner-frame206887">
+              <span className="wog-company-banner-text">
+                Долучайся до команди WOGонь
               </span>
-              <span className={styles['text1']}>
+              <span className="wog-company-banner-text1">
                 Шукаємо операторів, касирів та техробітників
               </span>
             </div>
-            <div className={styles['frame206889']}>
+            <div className="wog-company-banner-frame206889">
               <img
                 src={props.image_src1}
                 alt={props.image_alt1}
-                className={styles['image']}
+                className="wog-company-banner-image"
               />
             </div>
           </div>
-          <button className={styles['buttons']}>
-            <span className={styles['text2']}>
+          <a
+            href={props.button_link}
+            target="_blank"
+            rel="noreferrer noopener"
+            onClick={props.button_click}
+            className="wog-company-banner-buttons"
+          >
+            <span className="wog-company-banner-text2">
               <span>Переглянути вакансії</span>
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -40,8 +46,11 @@ const WogCompanyBanner = (props) => {
 WogCompanyBanner.defaultProps = {
   image_src: '023ae9ff-2a3d-49a2-8daa-2612c4a15638',
   image_alt: 'image',
-  image_src1: '/wog_logo-200h.png',
+  image_src1: '/wog_logo.png',
   image_alt1: 'image',
+  button_link:
+    'https://ua.jooble.org/company/48697/WOG?jdpid=-1104454715201230453&p=1',
+  button_click: () => {},
 }
 
 WogCompanyBanner.propTypes = {
@@ -49,6 +58,8 @@ WogCompanyBanner.propTypes = {
   image_alt: PropTypes.string,
   image_src1: PropTypes.string,
   image_alt1: PropTypes.string,
+  button_link: PropTypes.string,
+  button_click: PropTypes.func,
 }
 
 export default WogCompanyBanner
