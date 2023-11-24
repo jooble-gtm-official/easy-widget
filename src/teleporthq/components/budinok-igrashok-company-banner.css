@@ -1,51 +1,52 @@
-.goldenage-company-banner-container {
+.budinok-igrashok-company-banner-container {
     width: 100%;
+    height: auto;
     display: flex;
     position: relative;
     align-items: flex-start;
     flex-direction: column;
   }
-  .goldenage-company-banner-colorframe {
+  .budinok-igrashok-company-banner-colorframe {
     gap: 16px;
     width: 100%;
     height: auto;
     display: flex;
     padding: 16px;
     overflow: hidden;
-    background: radial-gradient(79.74% 204.84% at 78.03% 42.19%, rgba(255, 235, 128, 0.5) 0%, rgba(255, 196, 127, 0.5) 41.44%, rgba(255, 172, 137, 0.5) 81.56%, rgba(205, 140, 255, 0.5) 100%);
+    background: radial-gradient(90.13% 231.91% at 88.22% 31.25%, rgba(216, 143, 255, 0.5) 0%, rgba(215, 151, 255, 0.5) 23.42%, rgba(247, 128, 253, 0.5) 54.98%, rgba(255, 197, 232, 0.5) 100%);
     box-sizing: border-box;
     align-items: flex-start;
     flex-shrink: 0;
     border-radius: 2px;
     flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
   }
-  .goldenage-company-banner-container1 {
+  .budinok-igrashok-company-banner-container1 {
     flex: 0 0 auto;
     width: 100%;
     height: auto;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
-  .goldenage-company-banner-frame206888 {
+  .budinok-igrashok-company-banner-frame206888 {
     width: 100%;
     display: flex;
     overflow: hidden;
     align-items: flex-start;
     justify-content: space-between;
   }
-  .goldenage-company-banner-frame206887 {
+  .budinok-igrashok-company-banner-frame206887 {
     gap: 8px;
-    height: 96px;
     display: flex;
     overflow: hidden;
+    position: relative;
     align-items: flex-start;
-    flex-shrink: 0;
     flex-direction: column;
   }
-  .goldenage-company-banner-text {
+  .budinok-igrashok-company-banner-text {
     color: rgba(56, 62, 71, 1);
-    width: 166px;
+    width: 181px;
     height: auto;
     font-size: 18px;
     font-style: Bold;
@@ -56,10 +57,11 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .goldenage-company-banner-text2 {
+  .budinok-igrashok-company-banner-text2 {
     color: rgba(56, 62, 71, 1);
-    width: 168px;
+    width: 166px;
     height: auto;
+    z-index: 1;
     font-size: 14px;
     font-style: Regular;
     text-align: left;
@@ -69,20 +71,17 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .goldenage-company-banner-frame206889 {
-    gap: -8px;
-    width: 96px;
+  .budinok-igrashok-company-banner-frame206889 {
+    gap: 10px;
     display: flex;
     overflow: hidden;
-    flex-wrap: wrap;
     align-items: flex-start;
-    flex-shrink: 0;
   }
-  .goldenage-company-banner-image {
-    width: 96px;
+  .budinok-igrashok-company-banner-image {
+    width: 92px;
     object-fit: cover;
   }
-  .goldenage-company-banner-buttons {
+  .budinok-igrashok-company-banner-buttons {
     gap: 10px;
     display: flex;
     padding: 12px 16px;
@@ -92,9 +91,10 @@
     border: none;
     border-radius: 4px;
     justify-content: center;
+    text-decoration: none;
     background-color: rgba(11, 113, 217, 1);
   }
-  .goldenage-company-banner-text4 {
+  .budinok-igrashok-company-banner-text4 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 16px;
@@ -106,4 +106,3 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  
