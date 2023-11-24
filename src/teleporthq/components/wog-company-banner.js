@@ -11,7 +11,7 @@ const WogCompanyBanner = (props) => {
         <div className="wog-company-banner-frame206888">
           <div className="wog-company-banner-frame206887">
             <span className="wog-company-banner-text">
-              Долучайся до команди WOGонь 🔥
+              Долучайся до команди WOGонь🔥
             </span>
             <span className="wog-company-banner-text1">
               Шукаємо операторів, касирів та техробітників

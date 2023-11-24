@@ -13,6 +13,7 @@
   padding: 16px;
   overflow: hidden;
   background: linear-gradient(248.6deg, rgba(233, 239, 163, 0.5) 1.46%, rgba(161, 226, 76, 0.5) 38.15%, rgba(25, 197, 106, 0.5) 101.23%),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  box-sizing: border-box;
   align-items: flex-start;
   flex-shrink: 0;
   flex-direction: column;
@@ -35,28 +36,28 @@
 }
 .wog-company-banner-text {
   color: rgba(56, 62, 71, 1);
-  width: 175px;
+  width: 177px;
   height: auto;
   font-size: 18px;
   font-style: Bold;
   text-align: left;
   font-family: "Inter";
   font-weight: 700;
-  line-height: 129.99999523162842%;
+  line-height: 23.4px;
   font-stretch: normal;
   text-decoration: none;
 }
 .wog-company-banner-text1 {
-  color: rgba(56, 62, 71, 1);
+  color: rgb(56, 62, 71);
   width: 170px;
   height: auto;
   z-index: 1;
   font-size: 14px;
   font-style: Regular;
   text-align: left;
-  font-family: Inter;
+  font-family: "Inter";
   font-weight: 400;
-  line-height: 150%;
+  line-height: 21px;
   font-stretch: normal;
   text-decoration: none;
 }
