@@ -13,7 +13,7 @@
     display: flex;
     padding: 16px;
     overflow: hidden;
-    background: radial-gradient(79.74% 204.84% at 78.03% 42.19%, rgba(255, 235, 128, 0.5) 0%, rgba(255, 196, 127, 0.5) 41.44%, rgba(255, 172, 137, 0.5) 81.56%, rgba(205, 140, 255, 0.5) 100%),url("/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */ linear-gradient(0deg, #FFFFFF, #FFFFFF)");
+    background: radial-gradient(79.74% 204.84% at 78.03% 42.19%, rgba(255, 235, 128, 0.5) 0%, rgba(255, 196, 127, 0.5) 41.44%, rgba(255, 172, 137, 0.5) 81.56%, rgba(205, 140, 255, 0.5) 100%);
     box-sizing: border-box;
     align-items: flex-start;
     flex-shrink: 0;
