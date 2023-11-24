@@ -7,37 +7,35 @@ import './wog-company-banner.css'
 const WogCompanyBanner = (props) => {
   return (
     <div className="wog-company-banner-container">
-      <div className="wog-company-banner-wog">
-        <div className="wog-company-banner-colorframe">
-          <div className="wog-company-banner-frame206888">
-            <div className="wog-company-banner-frame206887">
-              <span className="wog-company-banner-text">
-                Долучайся до команди WOGонь
-              </span>
-              <span className="wog-company-banner-text1">
-                Шукаємо операторів, касирів та техробітників
-              </span>
-            </div>
-            <div className="wog-company-banner-frame206889">
-              <img
-                src={props.image_src1}
-                alt={props.image_alt1}
-                className="wog-company-banner-image"
-              />
-            </div>
-          </div>
-          <a
-            href={props.button_link}
-            target="_blank"
-            rel="noreferrer noopener"
-            onClick={props.button_click}
-            className="wog-company-banner-buttons"
-          >
-            <span className="wog-company-banner-text2">
-              <span>Переглянути вакансії</span>
+      <div className="wog-company-banner-colorframe">
+        <div className="wog-company-banner-frame206888">
+          <div className="wog-company-banner-frame206887">
+            <span className="wog-company-banner-text">
+              Долучайся до команди WOGонь 🔥
             </span>
-          </a>
+            <span className="wog-company-banner-text1">
+              Шукаємо операторів, касирів та техробітників
+            </span>
+          </div>
+          <div className="wog-company-banner-frame206889">
+            <img
+              src={props.image_src1}
+              alt={props.image_alt1}
+              className="wog-company-banner-image"
+            />
+          </div>
         </div>
+        <a
+          href={props.button_link}
+          target="_blank"
+          rel="noreferrer noopener"
+          onClick={props.button_click}
+          className="wog-company-banner-buttons"
+        >
+          <span className="wog-company-banner-text2">
+            <span>Переглянути вакансії</span>
+          </span>
+        </a>
       </div>
     </div>
   )

@@ -1,20 +1,10 @@
 .wog-company-banner-container {
   width: 100%;
-  height: 200px;
   display: flex;
   position: relative;
+  box-sizing: border-box;
   align-items: flex-start;
   flex-direction: column;
-}
-.wog-company-banner-wog {
-  gap: 10px;
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: 3px;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: rgba(255, 255, 255, 1);
 }
 .wog-company-banner-colorframe {
   gap: 16px;
