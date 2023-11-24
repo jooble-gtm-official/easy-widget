@@ -1,0 +1,105 @@
+.watsons-company-banner-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .watsons-company-banner-colorframe {
+    gap: 16px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 16px;
+    overflow: hidden;
+    background: radial-gradient(94.59% 239.31% at 91.72% 20.12%, rgba(221, 248, 248, 0.5) 0%, rgba(137, 233, 233, 0.5) 25.8%, rgba(126, 223, 223, 0.5) 59.44%, rgba(80, 184, 184, 0.5) 100%),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 2px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .watsons-company-banner-frame206888 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .watsons-company-banner-frame206887 {
+    gap: 8px;
+    width: 127px;
+    height: 73px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .watsons-company-banner-text {
+    color: rgba(56, 62, 71, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "Inter";
+    font-weight: 700;
+    line-height: 129.99999523162842%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .watsons-company-banner-text2 {
+    top: 31px;
+    color: rgba(56, 62, 71, 1);
+    width: 136px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 150%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .watsons-company-banner-img {
+    gap: 10px;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .watsons-company-banner-image {
+    width: 100px;
+    object-fit: cover;
+  }
+  .watsons-company-banner-buttons {
+    gap: 10px;
+    display: flex;
+    padding: 12px 16px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 4px;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgba(11, 113, 217, 1);
+  }
+  .watsons-company-banner-text4 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Medium;
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 500;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
