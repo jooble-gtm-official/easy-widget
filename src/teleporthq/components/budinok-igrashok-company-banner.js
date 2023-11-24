@@ -12,7 +12,7 @@ const BudinokIgrashokCompanyBanner = (props) => {
           <div className="budinok-igrashok-company-banner-frame206888">
             <div className="budinok-igrashok-company-banner-frame206887">
               <span className="budinok-igrashok-company-banner-text">
-                <span>Робота з дитячими посмішками</span>
+                <span>Робота з дитячими посмішками🤩</span>
               </span>
               <span className="budinok-igrashok-company-banner-text2">
                 <span>Шукаємо продавця в Будинок іграшок</span>
