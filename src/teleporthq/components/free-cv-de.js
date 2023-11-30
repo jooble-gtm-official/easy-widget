@@ -52,7 +52,7 @@ const FreeCVDe = (props) => {
             onClick={props.Freecv_btnClick}
             className="free-cv-de-frameprimarydefaultm"
           >
-            <span className="free-cv-de-text6">Create my CV</span>
+            <span className="free-cv-de-text6">Lebenslauf erstellen</span>
           </div>
         </a>
       </div>
