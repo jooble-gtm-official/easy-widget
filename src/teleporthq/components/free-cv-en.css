@@ -121,7 +121,7 @@
   gap: 10px;
   top: 280px;
   left: 22px;
-  width: 225px;
+  width: 256px;
   cursor: pointer;
   display: flex;
   padding: 12px 16px;
@@ -132,6 +132,7 @@
   justify-content: center;
   background-color: rgba(16, 24, 44, 1);
 }
+
 .free-cv-en-text4 {
   color: rgb(255, 255, 255);
   width: 100%;
