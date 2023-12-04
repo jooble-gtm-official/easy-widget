@@ -7,7 +7,7 @@ import './free-cv-fr.css'
 const FreeCVFr = (props) => {
   return (
     <div className="free-cv-fr-container">
-      <div className="free-cv-fr-freecv4">
+      <div onClick={props.Freecv_btnClick} className="free-cv-fr-freecv4">
         <div className="free-cv-fr-frame1stimg">
           <div className="free-cv-fr-group207042">
             <div className="free-cv-fr-group207073">
@@ -39,10 +39,7 @@ const FreeCVFr = (props) => {
           rel="noreferrer noopener"
           className="free-cv-fr-link"
         >
-          <div
-            onClick={props.Freecv_btnClick}
-            className="free-cv-fr-frameprimarydefaultm"
-          >
+          <div className="free-cv-fr-frameprimarydefaultm">
             <span className="free-cv-fr-text3">Créer mon CV</span>
           </div>
         </a>
