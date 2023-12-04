@@ -17,6 +17,7 @@
   border-radius: 8px;
   background-color: rgba(226, 238, 244, 1);  
   cursor: pointer;
+  text-decoration: none;
 }
 .free-cv-fr-frame1stimg {
   top: -45px;

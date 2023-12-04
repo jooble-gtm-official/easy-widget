@@ -8,6 +8,7 @@
 }
 .free-cv-de-freecv4 {
   width: 100%;
+  cursor: pointer;
   height: 350px;
   display: flex;
   overflow: hidden;
@@ -15,6 +16,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 8px;
+  text-decoration: none;
   background-color: rgba(226, 238, 244, 1);
 }
 .free-cv-de-frame1stimg {
@@ -130,7 +132,6 @@
   flex-shrink: 0;
   border-radius: 4px;
   justify-content: center;
-  text-decoration: none;
   background-color: rgba(16, 24, 44, 1);
 }
 .free-cv-de-text6 {
