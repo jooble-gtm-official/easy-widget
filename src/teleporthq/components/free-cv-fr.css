@@ -15,7 +15,8 @@
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 8px;
-  background-color: rgba(226, 238, 244, 1);
+  background-color: rgba(226, 238, 244, 1);  
+  cursor: pointer;
 }
 .free-cv-fr-frame1stimg {
   top: -45px;
